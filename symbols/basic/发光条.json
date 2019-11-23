@@ -1,0 +1,23 @@
+{
+  "width": 128,
+  "height": 4,
+  "boundExtend": 24,
+  "comps": [
+    {
+      "type": "oval",
+      "background": "rgba(41,155,217,0.51)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(41,155,217)",
+      "shadowBlur": 24,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        0,
+        0,
+        128,
+        4
+      ]
+    }
+  ]
+}

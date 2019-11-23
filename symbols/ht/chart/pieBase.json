@@ -1,0 +1,320 @@
+{
+  "modified": "Mon Jan 28 2019 19:19:33 GMT+0800 (中国标准时间)",
+  "width": 900,
+  "height": 300,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/ht/chart/pie.json",
+      "displayName": "pie",
+      "rect": [
+        0,
+        0,
+        300,
+        300
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onMove.apply(this, arguments);\n}",
+      "pieData": [
+        {
+          "name": "已完成",
+          "value": 50,
+          "itemStyle": {
+            "color": {
+              "type": "linear",
+              "colorStops": [
+                {
+                  "offset": 0,
+                  "color": "blue"
+                },
+                {
+                  "offset": 0.5,
+                  "color": "red"
+                },
+                {
+                  "offset": 1,
+                  "color": "yellow"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "未完成",
+          "value": 50,
+          "label": {
+            "normal": {
+              "show": false
+            },
+            "emphasis": {
+              "show": false
+            }
+          },
+          "labelLine": {
+            "normal": {
+              "show": false
+            },
+            "emphasis": {
+              "show": false
+            }
+          },
+          "itemStyle": {
+            "color": "rgba(255, 255, 255, 0)"
+          }
+        }
+      ],
+      "radius": [
+        "15",
+        "25%"
+      ],
+      "startAngle": 180,
+      "labelLine": {
+        "normal": {
+          "show": false
+        },
+        "emphasis": {
+          "show": false
+        }
+      },
+      "label": {
+        "normal": {
+          "show": true,
+          "color": "red",
+          "formatter": "{b}\n完成度: {d}"
+        },
+        "emphasis": {
+          "show": true,
+          "color": "red",
+          "font": "12px serif",
+          "formatter": "{b}\n完成度: {d}"
+        }
+      },
+      "tooltip": {
+        "show": false,
+        "formatter": ""
+      }
+    },
+    {
+      "type": "components/ht/chart/pie.json",
+      "displayName": "pie",
+      "rect": [
+        300,
+        0,
+        300,
+        300
+      ],
+      "pieData": [
+        {
+          "name": "pie",
+          "value": 1,
+          "itemStyle": {
+            "color": {
+              "type": "linear",
+              "colorStops": [
+                {
+                  "offset": 0,
+                  "color": "#004e92"
+                },
+                {
+                  "offset": 1,
+                  "color": "#000000"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "radius": [
+        0,
+        "20"
+      ],
+      "labelLine": {
+        "normal": {
+          "show": false
+        },
+        "emphasis": {
+          "show": false
+        }
+      },
+      "label": {
+        "normal": {
+          "show": false
+        },
+        "emphasis": {
+          "show": false
+        }
+      },
+      "hoverOffset": 0,
+      "tooltip": {
+        "show": false,
+        "formatter": ""
+      }
+    },
+    {
+      "type": "components/ht/chart/pie.json",
+      "displayName": "pie",
+      "rect": [
+        300,
+        0,
+        300,
+        300
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onMove.apply(this, arguments);\n}",
+      "pieData": [
+        {
+          "name": "已完成",
+          "value": 75,
+          "label": {
+            "normal": {
+              "formatter": "{d}",
+              "font": "12px serif"
+            }
+          },
+          "itemStyle": {
+            "color": {
+              "type": "linear",
+              "colorStops": [
+                {
+                  "offset": 0,
+                  "color": "#26a67b"
+                },
+                {
+                  "offset": 1,
+                  "color": "#0474d6"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "未完成",
+          "value": 25,
+          "label": {
+            "normal": {
+              "show": false
+            }
+          },
+          "itemStyle": {
+            "color": "#3d3d3d"
+          }
+        }
+      ],
+      "radius": [
+        "20",
+        "25%"
+      ],
+      "startAngle": 180,
+      "labelLine": {
+        "normal": {
+          "show": false
+        },
+        "emphasis": {
+          "show": false
+        }
+      },
+      "label": {
+        "normal": {
+          "show": true,
+          "color": "white"
+        },
+        "emphasis": {
+          "show": false
+        }
+      },
+      "hoverOffset": 1
+    },
+    {
+      "type": "components/ht/chart/pie.json",
+      "displayName": "pie",
+      "rect": [
+        600,
+        0,
+        300,
+        300
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onMove.apply(this, arguments);\n}",
+      "pieData": [
+        {
+          "name": "已完成",
+          "value": 50,
+          "itemStyle": {
+            "color": {
+              "type": "radial",
+              "colorStops": [
+                {
+                  "offset": 0,
+                  "color": "blue"
+                },
+                {
+                  "offset": 0.5,
+                  "color": "red"
+                },
+                {
+                  "offset": 1,
+                  "color": "yellow"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "未完成",
+          "value": 50,
+          "label": {
+            "normal": {
+              "show": false
+            },
+            "emphasis": {
+              "show": false
+            }
+          },
+          "labelLine": {
+            "normal": {
+              "show": false
+            },
+            "emphasis": {
+              "show": false
+            }
+          },
+          "itemStyle": {
+            "color": "rgba(255, 255, 255, 0)"
+          }
+        }
+      ],
+      "radius": [
+        "15",
+        "25%"
+      ],
+      "startAngle": 180,
+      "labelLine": {
+        "normal": {
+          "show": false
+        },
+        "emphasis": {
+          "show": false
+        }
+      },
+      "label": {
+        "normal": {
+          "show": true,
+          "color": "red",
+          "formatter": "{b}\n完成度: {d}"
+        },
+        "emphasis": {
+          "show": true,
+          "color": "red",
+          "font": "12px serif",
+          "formatter": "{b}\n完成度: {d}"
+        }
+      },
+      "tooltip": {
+        "show": false,
+        "formatter": ""
+      }
+    }
+  ]
+}

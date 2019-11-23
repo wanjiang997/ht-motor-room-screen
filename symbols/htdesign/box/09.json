@@ -1,0 +1,165 @@
+{
+  "modified": "Thu Jan 03 2019 15:55:24 GMT+0800 (中国标准时间)",
+  "width": 162,
+  "height": 96,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(0,0,0,0.16)",
+      "borderColor": "#979797",
+      "rect": [
+        26.3033,
+        15.09451,
+        109.24835,
+        34.22418
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,0,0,0.16)",
+      "borderColor": "#979797",
+      "rect": [
+        26.3033,
+        54.4654,
+        109.24835,
+        34.22418
+      ]
+    },
+    {
+      "type": "text",
+      "text": "160.0",
+      "align": "right",
+      "color": "#32D3EB",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        49.39181,
+        26.45961,
+        42.07281,
+        16.74002
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(49,210,235,0.60)",
+      "borderColor": "#979797",
+      "rect": [
+        27.54277,
+        0,
+        1.62526,
+        95.78628
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(49,210,235,0.60)",
+      "borderColor": "#979797",
+      "rotation": 1.5708,
+      "rect": [
+        77.23025,
+        -42.1806,
+        1.62526,
+        118.91513
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(49,210,235,0.60)",
+      "borderColor": "#979797",
+      "rotation": 1.5708,
+      "rect": [
+        77.23025,
+        28.41916,
+        1.62526,
+        118.91513
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(49,210,235,0.60)",
+      "borderColor": "#979797",
+      "rotation": 1.5708,
+      "rect": [
+        80.00903,
+        -28.43939,
+        1.62526,
+        161.64331
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgba(49,210,235,0.60)",
+      "borderColor": "#979797",
+      "rect": [
+        112.50102,
+        21.4434,
+        18.15991,
+        21.56489
+      ]
+    },
+    {
+      "type": "text",
+      "text": "T",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 6.28319,
+      "rect": [
+        118.00254,
+        28.97537,
+        11.09154,
+        15.12905
+      ]
+    },
+    {
+      "type": "text",
+      "text": "厦门图扑软件",
+      "align": "right",
+      "color": "#32D3EB",
+      "rect": [
+        45.24866,
+        53.1949,
+        89.3912,
+        16.08813
+      ]
+    },
+    {
+      "type": "text",
+      "text": "DEMO",
+      "align": "right",
+      "color": "#32D3EB",
+      "rect": [
+        45.24866,
+        67.26742,
+        89.3912,
+        16.08813
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(47,210,235,0.14)",
+      "borderColor": "#979797",
+      "rotation": 1.5708,
+      "rect": [
+        37.69964,
+        75.96117,
+        4.41721,
+        14.68926
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(47,210,235,0.30)",
+      "borderColor": "#979797",
+      "rotation": 1.5708,
+      "rect": [
+        49.50081,
+        56.16568,
+        4.41721,
+        38.29161
+      ]
+    }
+  ]
+}

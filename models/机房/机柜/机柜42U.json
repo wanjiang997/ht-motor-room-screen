@@ -1,0 +1,13 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/机房/机柜/jigui1.obj",
+  "mtl": "assets/objs/机房/机柜/jigui1.mtl",
+  "reverseFlipMtls": "*",
+  "s3": [
+    1,
+    1,
+    1
+  ],
+  "image": "",
+  "prefix": "assets/objs/机房/机柜/"
+}

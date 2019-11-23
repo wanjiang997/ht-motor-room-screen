@@ -1,0 +1,70 @@
+{
+  "modified": "Wed Dec 12 2018 14:57:41 GMT+0800 (中国标准时间)",
+  "width": 256,
+  "height": 256,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(51,153,255)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        4.32289,
+        0,
+        2,
+        256
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgb(51,153,255)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        249.13106,
+        0,
+        2,
+        256
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(51,153,255,0.29)",
+      "borderColor": "#979797",
+      "gradient": "linear.north",
+      "gradientColor": "rgba(49,210,235,0.00)",
+      "shadow": true,
+      "shadowColor": "rgb(51,153,255)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        10.70541,
+        152.1052,
+        234.58918,
+        97.13919
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "#32D3EB",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "#32D3EB",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 1.5708,
+      "rect": [
+        127,
+        131.94979,
+        2,
+        234.58918
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "modified": "Thu Feb 28 2019 17:30:04 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "username",
+      "valueType": "String",
+      "name": "用户名"
+    },
+    {
+      "attr": "password",
+      "valueType": "String",
+      "name": "密码"
+    }
+  ],
+  "width": 320,
+  "height": 240,
+  "fitSize": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(61,61,61,0.25)",
+      "borderWidth": 1,
+      "borderColor": "rgb(51,153,255)",
+      "rect": [
+        0,
+        0,
+        320,
+        240
+      ]
+    },
+    {
+      "type": "components/ht/ui/input.json",
+      "displayName": "input",
+      "rect": [
+        60.51377,
+        36.73679,
+        239.48623,
+        40.0423
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onDown.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onLeave.apply(this, arguments);\n}",
+      "value": {
+        "func": "attr@username"
+      },
+      "padding": "0 8",
+      "background": "rgb(247,247,247)",
+      "font": "24px Arial Black"
+    },
+    {
+      "type": "components/ht/ui/input.json",
+      "displayName": "input",
+      "rect": [
+        60.51377,
+        101.70189,
+        239.48623,
+        38.4837
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onDown.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onLeave.apply(this, arguments);\n}",
+      "value": {
+        "func": "attr@password"
+      },
+      "padding": "0 8",
+      "background": "rgb(247,247,247)",
+      "font": "24px Arial Black",
+      "inputType": "password"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        20,
+        180.89731,
+        280,
+        39.32361
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nvar password = data.a('password'),\n    username = data.a('username');\n    console.log(username, password)\nif (username === 'ht' && password === 'ht') {\n    data.a('errorInfo', '登陆成功');\n}\nelse {\n    data.a('errorInfo', '用户名或密码错误');\n}\n}",
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onUp.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onLeave.apply(this, arguments);\n}",
+      "text": "登录",
+      "font": "20px sans-serif, Arial",
+      "textColor": "rgb(247,247,247)",
+      "background": "rgb(125,195,125)"
+    },
+    {
+      "type": "rect",
+      "background": "#D8D8D8",
+      "borderWidth": 1,
+      "borderColor": "#737373",
+      "rect": [
+        20.57125,
+        36.73679,
+        39.94252,
+        40.0423
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "#D8D8D8",
+      "borderWidth": 1,
+      "borderColor": "#737373",
+      "rect": [
+        20.57125,
+        101.70189,
+        39.94252,
+        38.4837
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(168,168,168)",
+      "borderColor": "#979797",
+      "rect": [
+        35.51167,
+        48.00516,
+        10.11915,
+        10.11915
+      ]
+    },
+    {
+      "type": "arc",
+      "background": "rgb(168,168,168)",
+      "borderColor": "#979797",
+      "arcFrom": -3.14159,
+      "arcTo": 0,
+      "rect": [
+        30.93306,
+        58.12431,
+        19.27638,
+        15.25165
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(168,168,168)",
+      "borderColor": "#979797",
+      "rect": [
+        34.0974,
+        117.73483,
+        12.94769,
+        8.90897
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "#D8D8D8",
+      "borderColor": "#979797",
+      "rect": [
+        39.22787,
+        119.50257,
+        2.68675,
+        2.68675
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "#D8D8D8",
+      "borderColor": "#979797",
+      "rect": [
+        39.71217,
+        121.74387,
+        1.71816,
+        2.90344
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(168,168,168)",
+      "points": [
+        37.36634,
+        118.6045,
+        37.36634,
+        118.6045,
+        39.03902,
+        115.24369,
+        40.72477,
+        115.24369,
+        42.41052,
+        115.24369,
+        44.08321,
+        118.6045,
+        44.08321,
+        118.6045
+      ],
+      "segments": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@errorInfo",
+        "value": ""
+      },
+      "color": {
+        "func": "__ht__function(data, view) {\nreturn data.a('errorInfo') !== '登陆成功' ? 'rgb(242,83,75)' : 'rgb(93,217,174)'\n}",
+        "value": "rgb(93,217,174)"
+      },
+      "font": "22px sans-serif, Arial",
+      "rect": [
+        20,
+        140.18559,
+        280,
+        33.89218
+      ]
+    }
+  ]
+}

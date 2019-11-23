@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>机房-喀什机房</title>
+  <script src="libs/core/ht.js"></script>
+  <script src="libs/core/ht-ui.js"></script>
+  <script src="libs/plugin/ht-contextmenu.js"></script>
+  <script src="libs/plugin/ht-edgetype.js"></script>
+  <script src="libs/plugin/ht-vector.js"></script>
+  <script src="libs/plugin/ht-obj.js"></script>
+  <script src="libs/plugin/ht-cssanimation.js"></script>
+  <link rel="stylesheet" href="./js/screen.css">
+  <script src="../mung-local-config.js"></script>
+  <script src="js/util.js"></script>
+  <style>
+  </style>
+</head>
+<script>
+    const name = getParam('name')
+    const address = getParam('address')
+    console.log(name + '---------' + address)
+    dm2d = new ht.DataModel(); //2D导航栏
+    dm3d = new ht.DataModel();
+    g3d = new ht.graph3d.Graph3dView(dm3d);
+    g2d = new ht.graph.GraphView(dm2d);
+    anim = null;
+    anchorX = null;
+    urlPath = mungConfig.LOGIN_URL;
+    g3d.enableToolTip();
+    window.addEventListener('load', function() {
+      g3d.addToDOM();
+      ht.Default.xhrLoad(['./displays/myself/导航栏.json', './scenes/卫通机房/喀什机房.json'], function(res) {
+        menuJson = res[0];
+        convertJson = res[1];
+        loadMenu();
+        load3d();
+
+        // 设置每个机柜服务器的属性
+        setAttrName(dm3d);
+      });
+      // 监听3D拓扑组件的dataDoubleClicked事件
+      g3d.onDataDoubleClicked = function(data, e, dataInfo) {
+        // 若果节点为门
+        if (data._tag !== undefined && data._tag.startsWith('jigui_door_')) {
+          // 遍历所有吸附在机柜下的节点
+          data.getHost().getAttaches().each(function(attach) {
+            // 如果节点状态为弹出，则调用函数还原节点位置
+            if (attach.pop) {
+                toggleData(attach);
+            }
+          });
+          toggleData(data);
+        } else if (data.a('port')) { // 如果节点为端口节点，则触发其所吸附设备的双击事件
+          const params = {
+            url: urlPath,
+            type: "POST",
+            params: {
+                "satellite_id": 1
+            },
+            success: function (resp) {
+                if (resp != null) {
+                    console.log(123)
+                }
+            },
+            error: function (status) {
+                console.log(status)
+            }
+          }
+          toggleData(data, params);
+        }
+      };
+      // 处理鼠标滚轮缩放，可重载重新定义缩放逻辑，一般用于禁用缩放
+      handleScroll(g3d);
+      /*******************鼠标经过时明暗度的变化************************************/
+      // 获取图元最终亮度，默认为1,大于1变亮，小于1变暗
+      g3d.getBrightness = function (data) {
+        if (data.s('isFocused')) {
+          return 0.7;
+        }
+        return null;
+      }
+      var lastFocusData = null
+      // 添加事件 设置鼠标触碰亮度变暗
+      g3d.getView().addEventListener('mousemove', function (e) {
+        // 传入逻辑坐标点或者交互event事件参数，返回当前点下的图元
+        var data = g3d.getDataAt(e);
+        if (data !== lastFocusData) {
+          if (lastFocusData) {
+              lastFocusData.s('isFocused', false);
+          }
+          if (data) {
+              data.s('isFocused', true);
+          }
+          lastFocusData = data;
+        }
+      })
+    });
+
+    // 双击节点处理函数
+    function toggleData(data, params) {
+        var angle = data.angle,
+            pop   = data.pop
+        // 当前双击对象为门
+        if (angle != null) {
+            if (anim) {
+                anim.stop(true)
+            }
+            var oldAngle = data.getRotation()
+            if (data.open) {
+                angle = -angle
+            }
+            data.open = !data.open
+            if (data.open) {
+              let displayName = data.getParent().getDisplayName()
+              center = data.p3();
+              eye = [center[0] + 150, center[1] + 150, center[2] - 150]
+              setCenter(center, eye, g3d);
+            }
+            anim = ht.Default.startAnim({
+              action: function(t) {
+                data.setRotation(oldAngle + t * angle);
+              }
+            })
+        } else if (pop != null) { // 当前双击的对象为设备
+            if (anim) {
+                anim.stop(true)
+            }
+            var p3 = data.p3(),
+                s3 = data.getChildren().getArray()[0].s3(),
+                dist = (pop ? -s3[0] : s3[0]) / 2
+            data.pop = !data.pop
+            anim = ht.Default.startAnim({
+              duration: 50,
+              interval: 1000,
+                finishFunc: function() {
+                  // 服务器弹出时发送数据交互请求
+                  if (!pop) {
+                      ajaxRequest(params)
+                  }
+                },
+                action: function(t) {
+                  p3[0] = p3[0] + t * dist
+                  data.p3(p3[0], p3[1], p3[2])
+                }
+            })
+        }
+    }
+
+    // 初始化顶部导航栏
+    function loadMenu() {
+      g2d.deserialize(menuJson, e => {
+        var resetBtn = dm2d.getDataByTag('resetBtn');
+        resetBtn.a({
+          'ht.icon': './assets/贴图/images/u2851.png',
+          'ht.background': '#0B2341',
+          'ht.onClick': function() {
+            var eye = g3d.getEye()
+            var center = [-128, 70, 108];
+            if (eye[0] !== 724 || eye[1] !== 970 || eye[2] !== 478) {
+              eye = [724, 970, 478]
+              setCenter(center, eye, g3d);
+            }
+          }
+        })
+      });
+      g2d.addToDOM(g3d.getView());
+    }
+
+    // 3d渲染
+    function load3d(){
+      json = ht.Default.parse(convertJson)
+      scene = json.scene;
+      g3d.setEye([679, 1210, 1132]);
+      g3d.setCenter([-128, 70, 108]);
+      g3d.setFar(scene.far);
+      g3d.setNear(scene.near);
+      g3d.flyTo();
+      g3d.deserialize(convertJson, res => {
+        showCurrentTime();
+        const center = [-128, 70, 108];
+        const eye = [724, 970, 478]
+        setCenter(center, eye, g3d);
+      });
+    }
+
+    function showCurrentTime() {
+      if (this._currentInterval) return;
+      var node = dm2d.getDataByTag('dataTime');
+      var weakDay = dm2d.getDataByTag('weakDay');
+      weakDay.s('text', getDay(new Date()));
+      var motorRoomName = dm2d.getDataByTag('motorRoomName');
+      motorRoomName.s('text', '喀什机房');
+      this._currentInterval = setInterval(function() {
+          node.s('text', dateFormat(new Date(), 'YYYY年 MM月 DD日 hh:mm:ss'));
+      }, 500);
+    }
+</script>
+<body>
+  <div id="mask_bg">
+      <div id="loaded_id">Loading...</div>
+  </div>
+  <div id="erroe_mask_bg">
+    <div id="error_text">
+        <button id="close_btn">X</button>
+        <br />
+        <div style="margin-top: 72px" class="error-content">请求数据出错，请检查或重试...</div>
+    </div>
+  </div>
+</body>
+</html>

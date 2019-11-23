@@ -1,0 +1,444 @@
+{
+  "dataBindings": [
+    {
+      "attr": "onCancel",
+      "valueType": "Function",
+      "name": "取消按钮事件",
+      "defaultValue": "__ht__function onCancel() {\r\n    console.log('onCancel')\r\n}"
+    },
+    {
+      "attr": "onConfirm",
+      "valueType": "Function",
+      "name": "确定按钮事件",
+      "defaultValue": "__ht__function onConfirm() {\r\n    console.log('onConfirm')\r\n}"
+    },
+    {
+      "attr": "outputVal",
+      "valueType": "String",
+      "name": "输入框的值"
+    },
+    {
+      "attr": "backgroundColor",
+      "valueType": "String",
+      "name": "键盘背景颜色",
+      "defaultValue": "#03E9F9"
+    },
+    {
+      "attr": "buttonColor",
+      "valueType": "String",
+      "defaultValue": "#07C2F2",
+      "name": "按钮颜色"
+    }
+  ],
+  "gridBlockSize": 20,
+  "width": 180,
+  "height": 300,
+  "disableSelectedBorder": true,
+  "comps": [
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('backgroundColor');\n}",
+        "value": "#10CDDB"
+      },
+      "borderColor": "#979797",
+      "gradientColor": "#07C2F2",
+      "anchorX": 0,
+      "anchorY": 0,
+      "rect": [
+        0,
+        0,
+        180,
+        60
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "#19202B",
+      "borderColor": "#E3E3E3",
+      "anchorX": 0,
+      "anchorY": 0,
+      "rect": [
+        0,
+        60,
+        180,
+        240
+      ]
+    },
+    {
+      "type": "components/ht/ui/input.json",
+      "displayName": "input",
+      "rect": [
+        2.5,
+        2.5,
+        175,
+        55
+      ],
+      "value": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('outputVal')\n}"
+      },
+      "borderWidth": 0,
+      "borderColor": "#e3e3e3",
+      "borderRadius": "2",
+      "background": "rgba(61,61,61,0.5)",
+      "font": "18px sans-serif",
+      "textAlign": "center",
+      "textColor": "#FFF"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        10,
+        70,
+        40,
+        40
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar outputVal = data.getAttr('outputVal');\r\ndata.setAttr('outputVal', outputVal + '7');\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', 7)\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', null)\n}",
+      "text": "7",
+      "font": "16px sans-serif",
+      "textColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('backgroundColor')\n}",
+        "value": "#03E9F9"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('enterButton') === 7\r\n    ? data.getAttr(\"backgroundColor\")\r\n    : \"#19202B\"\n}",
+        "value": ""
+      },
+      "background": "",
+      "borderRadius": "20"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        70,
+        70,
+        40,
+        40
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar outputVal = data.getAttr('outputVal'); \r\ndata.setAttr('outputVal', outputVal + '8');\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', 8);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', null);\n}",
+      "text": "8",
+      "font": "16px sans-serif",
+      "textColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('backgroundColor')\n}",
+        "value": "#03E9F9"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('enterButton') === 8\r\n    ? data.getAttr('backgroundColor')\r\n    : '#19202B';\n}",
+        "value": ""
+      },
+      "background": "",
+      "borderRadius": "20"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        130,
+        70,
+        40,
+        40
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar outputVal = data.getAttr('outputVal'); \r\ndata.setAttr('outputVal', outputVal + '9');\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', 9);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', null);\n}",
+      "text": "9",
+      "font": "16px sans-serif",
+      "textColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('backgroundColor');\n}",
+        "value": "#03E9F9"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('enterButton') === 9\r\n    ? data.getAttr('backgroundColor')\r\n    : '#19202B';\n}",
+        "value": ""
+      },
+      "background": "",
+      "borderRadius": "20"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        10,
+        120,
+        40,
+        40
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar outputVal = data.getAttr('outputVal');\r\ndata.setAttr('outputVal', outputVal + '4');\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', 4);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', null);\n}",
+      "text": "4",
+      "font": "16px sans-serif",
+      "textColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('backgroundColor');\n}",
+        "value": "#03E9F9"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('enterButton') === 4\r\n    ? data.getAttr('backgroundColor')\r\n    : '#19202B';\n}",
+        "value": ""
+      },
+      "background": "",
+      "borderRadius": "20"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        70,
+        120,
+        40,
+        40
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar outputVal = data.getAttr('outputVal');\r\ndata.setAttr('outputVal', outputVal + '5');\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', 5);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', null);\n}",
+      "text": "5",
+      "font": "16px sans-serif",
+      "textColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('backgroundColor');\n}",
+        "value": "#03E9F9"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\n// 边框\r\nreturn data.getAttr('enterButton') === 5\r\n    ? data.getAttr('backgroundColor')\r\n    : '#19202B';\n}",
+        "value": ""
+      },
+      "background": "",
+      "borderRadius": "20"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        130,
+        120,
+        40,
+        40
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar outputVal = data.getAttr('outputVal'); \r\ndata.setAttr('outputVal', outputVal + '6');\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', 6);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', null);\n}",
+      "text": "6",
+      "font": "16px sans-serif",
+      "textColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('backgroundColor');\n}",
+        "value": "#03E9F9"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('enterButton') === 6\r\n    ? data.getAttr('backgroundColor')\r\n    : '#19202B';\n}",
+        "value": ""
+      },
+      "background": "",
+      "borderRadius": "20"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        10,
+        170,
+        40,
+        40
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar outputVal = data.getAttr('outputVal'); \r\ndata.setAttr('outputVal', outputVal + '1');\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', 1);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', null);\n}",
+      "text": "1",
+      "font": "16px sans-serif",
+      "textColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('backgroundColor');\n}",
+        "value": "#03E9F9"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('enterButton') === 1\r\n    ? data.getAttr('backgroundColor')\r\n    : '#19202B';\n}",
+        "value": ""
+      },
+      "background": "",
+      "borderRadius": "20"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        70,
+        170,
+        40,
+        40
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar outputVal = data.getAttr('outputVal'); \r\ndata.setAttr('outputVal', outputVal + '2');\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', 2);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', null);\n}",
+      "text": "2",
+      "font": "16px sans-serif",
+      "textColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('backgroundColor');\n}",
+        "value": "#03E9F9"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('enterButton') === 2\r\n    ? data.getAttr('backgroundColor')\r\n    : '#19202B';\n}",
+        "value": ""
+      },
+      "background": "",
+      "borderRadius": "20"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        130,
+        170,
+        40,
+        40
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar outputVal = data.getAttr('outputVal'); \r\ndata.setAttr('outputVal', outputVal + '3');\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', 3);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', null);\n}",
+      "text": "3",
+      "font": "16px sans-serif",
+      "textColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('backgroundColor');\n}",
+        "value": "#03E9F9"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('enterButton') === 3\r\n    ? data.getAttr('backgroundColor')\r\n    : '#19202B';\n}",
+        "value": ""
+      },
+      "background": "",
+      "borderRadius": "20"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        10,
+        220,
+        40,
+        40
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar outputVal = data.getAttr('outputVal'); \r\ndata.setAttr('outputVal', outputVal + '.');\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', \"dot\");\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', null);\n}",
+      "text": ".",
+      "font": "16px sans-serif",
+      "textColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('backgroundColor');\n}",
+        "value": "#03E9F9"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('enterButton') === \"dot\"\r\n    ? data.getAttr('backgroundColor')\r\n    : '#19202B';\n}",
+        "value": ""
+      },
+      "background": "",
+      "borderRadius": "20"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        70,
+        220,
+        40,
+        40
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar outputVal = data.getAttr('outputVal'); \r\ndata.setAttr('outputVal', outputVal + '0');\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', 0);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', null);\n}",
+      "text": "0",
+      "font": "16px sans-serif",
+      "textColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('backgroundColor');\n}",
+        "value": "#03E9F9"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('enterButton') === 0\r\n    ? data.getAttr('backgroundColor')\r\n    : '#19202B';\n}",
+        "value": ""
+      },
+      "background": "",
+      "borderRadius": "20"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        130,
+        220,
+        40,
+        40
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar outputVal = data.getAttr('outputVal'); \r\ndata.setAttr('outputVal', '');\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', \"X\");\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.setAttr('enterButton', null);\n}",
+      "text": "X",
+      "font": "16px sans-serif",
+      "textColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('backgroundColor');\n}",
+        "value": "#03E9F9"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('enterButton') === \"X\"\r\n    ? data.getAttr('backgroundColor')\r\n    : '#19202B';\n}",
+        "value": ""
+      },
+      "background": "",
+      "borderRadius": "20"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        36,
+        268,
+        44,
+        24
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar onCancel = data.getAttr('onCancel')\r\nonCancel(data)\n}",
+      "text": "Cancel",
+      "font": "8px sans-serif",
+      "iconHeight": 18,
+      "textColor": "#F6FBFE",
+      "borderColor": "#E3E3E3",
+      "background": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('buttonColor')\n}",
+        "value": "#07C2F2"
+      },
+      "borderRadius": "12"
+    },
+    {
+      "type": "components/ht/ui/button.json",
+      "displayName": "button",
+      "rect": [
+        100,
+        268,
+        44,
+        24
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nvar onConfirm = data.getAttr('onConfirm')\r\nonConfirm(data)\n}",
+      "text": "Confirm",
+      "font": "8px sans-serif",
+      "activeIconColor": "",
+      "textColor": "#F6FBFE",
+      "hoverTextColor": "",
+      "borderColor": "#E3E3E3",
+      "background": {
+        "func": "__ht__function(data, view) {\nreturn data.getAttr('buttonColor')\n}",
+        "value": "#07C2F2"
+      },
+      "borderRadius": "12"
+    }
+  ]
+}

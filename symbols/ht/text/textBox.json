@@ -1,0 +1,123 @@
+{
+  "modified": "Fri Mar 22 2019 16:34:09 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "ht.content",
+      "valueType": "Multiline",
+      "name": "editor.content"
+    },
+    {
+      "attr": "ht.autoScalue",
+      "valueType": "Boolean",
+      "name": "UIAutoScale"
+    },
+    {
+      "attr": "ht.wordBreak",
+      "valueType": "Boolean",
+      "name": "UIWordBreak"
+    },
+    {
+      "attr": "ht.font",
+      "valueType": "Font",
+      "name": "UIFont"
+    },
+    {
+      "attr": "ht.textAlign",
+      "valueType": "Align",
+      "name": "editor.valuetype.align"
+    },
+    {
+      "attr": "ht.vAlign",
+      "valueType": "VAlign",
+      "name": "editor.valuetype.valign"
+    },
+    {
+      "attr": "ht.color",
+      "valueType": "Color",
+      "name": "editor.color"
+    },
+    {
+      "attr": "ht.lineHeight",
+      "valueType": "PositiveNumber",
+      "name": "UILineHeight"
+    },
+    {
+      "attr": "ht.background",
+      "valueType": "Color",
+      "name": "UIBackground"
+    },
+    {
+      "attr": "ht.padding",
+      "valueType": "String",
+      "name": "UIPadding"
+    },
+    {
+      "attr": "ht.fillContent",
+      "valueType": "Boolean",
+      "name": "UIFillContent"
+    }
+  ],
+  "width": 100,
+  "height": 100,
+  "boundExtend": 5,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "components/ht/text/textBox.json",
+      "displayName": "textBox",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "content": {
+        "func": "attr@ht.content",
+        "value": "HT Vector"
+      },
+      "autoScale": {
+        "func": "attr@ht.autoScalue",
+        "value": true
+      },
+      "wordBreak": {
+        "func": "attr@ht.wordBreak",
+        "value": false
+      },
+      "font": {
+        "func": "attr@ht.font",
+        "value": "14px sans-serif, Arial"
+      },
+      "textAlign": {
+        "func": "attr@ht.textAlign",
+        "value": "left"
+      },
+      "vAlign": {
+        "func": "attr@ht.vAlign",
+        "value": "middle"
+      },
+      "color": {
+        "func": "attr@ht.color",
+        "value": "rgb(61,61,61)"
+      },
+      "lineHeight": {
+        "func": "attr@ht.lineHeight",
+        "value": 18
+      },
+      "background": {
+        "func": "attr@ht.background",
+        "value": null
+      },
+      "padding": {
+        "func": "attr@ht.padding",
+        "value": "0"
+      },
+      "fillContent": {
+        "func": "attr@ht.fillContent",
+        "value": false
+      },
+      "borderWidth": 1,
+      "borderColor": "rgb(51,153,255)",
+      "borderRadius": "5"
+    }
+  ]
+}

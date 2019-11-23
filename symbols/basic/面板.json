@@ -1,0 +1,569 @@
+{
+  "modified": "Mon Jun 17 2019 10:22:53 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "la",
+      "valueType": "String"
+    },
+    {
+      "attr": "lb",
+      "valueType": "String"
+    },
+    {
+      "attr": "lc",
+      "valueType": "String"
+    },
+    {
+      "attr": "ua",
+      "valueType": "String"
+    },
+    {
+      "attr": "ub",
+      "valueType": "String"
+    },
+    {
+      "attr": "uc",
+      "valueType": "String"
+    },
+    {
+      "attr": "name",
+      "valueType": "String"
+    },
+    {
+      "attr": "data_time",
+      "valueType": "String"
+    },
+    {
+      "attr": "title",
+      "valueType": "String"
+    }
+  ],
+  "width": 260,
+  "height": 270,
+  "boundExtend": 12,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(1,41,87,0.8)",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,248,251)",
+      "rect": [
+        0.00954,
+        0,
+        260.38358,
+        270.32555
+      ]
+    },
+    {
+      "type": "rect",
+      "borderWidth": 0.5,
+      "borderColor": "#32D3EB",
+      "rect": [
+        6.62051,
+        22.58119,
+        243.89509,
+        34.07983
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Ia：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        12.95686,
+        33.53952,
+        23.66909,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": "A",
+      "align": "center",
+      "color": "rgb(0,255,212)",
+      "font": "12px MicrosoftYaHei",
+      "rect": [
+        64.38791,
+        34.53952,
+        17.57259,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@la",
+        "value": "105"
+      },
+      "align": "center",
+      "color": "rgb(0,255,212)",
+      "font": "16px bold  MicrosoftYaHei",
+      "rect": [
+        37.25181,
+        33.53952,
+        32.86385,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "align": "right",
+      "color": "rgb(0,0,0)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        132.32263,
+        96.03631,
+        75.9693,
+        18.66262
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(0,221,255)",
+      "points": [
+        12.28462,
+        -1,
+        0,
+        -1,
+        0,
+        11.94732
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(0,221,255)",
+      "rotation": 1.5708,
+      "points": [
+        259.83003,
+        -1,
+        247.54542,
+        -1,
+        247.54542,
+        11.94732
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(0,221,255)",
+      "rotation": -3.14159,
+      "points": [
+        260.16139,
+        257.37822,
+        247.87677,
+        257.37822,
+        247.87677,
+        270.32554
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(0,221,255)",
+      "rotation": -1.5708,
+      "points": [
+        12.62551,
+        257.04686,
+        0.34089,
+        257.04686,
+        0.34089,
+        269.99419
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Ib：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        93.4005,
+        34.03952,
+        23.66909,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": "A",
+      "align": "center",
+      "color": "rgb(0,255,212)",
+      "font": "12px MicrosoftYaHei",
+      "rect": [
+        145.05492,
+        35.03952,
+        17.57259,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@lb",
+        "value": "102"
+      },
+      "align": "center",
+      "color": "rgb(0,255,212)",
+      "font": "16px bold  MicrosoftYaHei",
+      "rect": [
+        119.06959,
+        34.03952,
+        32.86385,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Ic：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        173.91927,
+        33.53952,
+        23.66909,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": "A",
+      "align": "center",
+      "color": "rgb(0,255,212)",
+      "font": "12px MicrosoftYaHei",
+      "rect": [
+        229.64147,
+        35.03952,
+        17.57259,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@lc",
+        "value": "100"
+      },
+      "align": "center",
+      "color": "rgb(0,255,212)",
+      "font": "16px bold  MicrosoftYaHei",
+      "rect": [
+        201.77762,
+        33.53952,
+        32.86385,
+        17.04725
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(16,91,176)",
+      "borderWidth": 0.5,
+      "borderColor": "#32D3EB",
+      "rect": [
+        13.90305,
+        14.58057,
+        46.69752,
+        16.00125
+      ]
+    },
+    {
+      "type": "text",
+      "text": "电 流",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        18.72029,
+        14.58057,
+        35.70165,
+        16.00125
+      ]
+    },
+    {
+      "type": "rect",
+      "borderWidth": 0.5,
+      "borderColor": "#32D3EB",
+      "rect": [
+        6.4832,
+        73.68527,
+        243.89509,
+        34.07983
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(16,91,176)",
+      "borderWidth": 0.5,
+      "borderColor": "#32D3EB",
+      "rect": [
+        13.76574,
+        65.68465,
+        46.69752,
+        16.00125
+      ]
+    },
+    {
+      "type": "text",
+      "text": "电 压",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        18.58298,
+        65.68465,
+        35.70165,
+        16.00125
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Ua：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        12.45693,
+        86.94146,
+        23.66909,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": "V",
+      "align": "center",
+      "color": "rgb(0,255,212)",
+      "font": "12px MicrosoftYaHei",
+      "rect": [
+        63.88798,
+        87.94146,
+        17.57259,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ua",
+        "value": "220"
+      },
+      "align": "right",
+      "color": "rgb(0,255,212)",
+      "font": "16px bold  MicrosoftYaHei",
+      "rect": [
+        36.75188,
+        86.94146,
+        32.86385,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Ub：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        93.4005,
+        86.94146,
+        23.66909,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": "V",
+      "align": "center",
+      "color": "rgb(0,255,212)",
+      "font": "12px MicrosoftYaHei",
+      "rect": [
+        145.05492,
+        87.94146,
+        17.57259,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@ub",
+        "value": "220"
+      },
+      "align": "right",
+      "color": "rgb(0,255,212)",
+      "font": "16px bold  MicrosoftYaHei",
+      "rect": [
+        119.06959,
+        86.94146,
+        32.86385,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Uc：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        173.91927,
+        86.44146,
+        23.66909,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": "V",
+      "align": "center",
+      "color": "rgb(0,255,212)",
+      "font": "12px MicrosoftYaHei",
+      "rect": [
+        229.64147,
+        87.94146,
+        17.57259,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@uc",
+        "value": "220"
+      },
+      "align": "right",
+      "color": "rgb(0,255,212)",
+      "font": "16px bold  MicrosoftYaHei",
+      "rect": [
+        201.77762,
+        86.44146,
+        32.86385,
+        17.04725
+      ]
+    },
+    {
+      "type": "rect",
+      "borderWidth": 0.5,
+      "borderColor": "#32D3EB",
+      "rect": [
+        6.14231,
+        124.69955,
+        243.89509,
+        130.73138
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(16,91,176)",
+      "borderWidth": 0.5,
+      "borderColor": "#32D3EB",
+      "rect": [
+        13.42485,
+        116.69893,
+        46.69752,
+        16.00125
+      ]
+    },
+    {
+      "type": "text",
+      "text": "故 障",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        18.24209,
+        116.69893,
+        35.70165,
+        16.00125
+      ]
+    },
+    {
+      "type": "text",
+      "text": "告警时间：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        18.76574,
+        180.78703,
+        62.93876,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": "网元名称：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        18.76574,
+        146.68097,
+        62.93876,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": "告警标题：",
+      "vAlign": "bottom",
+      "color": "rgb(255,255,255)",
+      "font": "14px MicrosoftYaHei",
+      "rect": [
+        18.76574,
+        218.29075,
+        62.93876,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "列头柜-129102"
+      },
+      "color": "rgb(0,255,212)",
+      "font": "16px bold  MicrosoftYaHei",
+      "rect": [
+        89.22069,
+        146.68097,
+        149.20707,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@data_time",
+        "value": "2018-3-28 12:00:00"
+      },
+      "color": "rgb(0,255,212)",
+      "font": "16px bold  MicrosoftYaHei",
+      "rect": [
+        89.22069,
+        180.78703,
+        146.81364,
+        17.04725
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@title",
+        "value": "机柜电流过大"
+      },
+      "color": "rgb(0,255,212)",
+      "font": "16px bold  MicrosoftYaHei",
+      "rect": [
+        89.22069,
+        218.29075,
+        149.20707,
+        17.04725
+      ]
+    }
+  ]
+}

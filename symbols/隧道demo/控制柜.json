@@ -1,0 +1,239 @@
+{
+  "width": 240,
+  "height": 300,
+  "comps": [
+    {
+      "type": "image",
+      "name": "assets/设备/控制柜白板.jpg",
+      "selectable": false,
+      "displayName": "控制柜白板",
+      "rect": [
+        0,
+        0,
+        240,
+        300
+      ]
+    },
+    {
+      "type": "image",
+      "color": "rgb(124,145,155)",
+      "name": "symbols/common/指示灯/控柜黄灯.json",
+      "displayName": "控柜黄灯",
+      "rect": [
+        160.87061,
+        75.51325,
+        19.56467,
+        19.56467
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/common/指示灯/控柜绿灯.json",
+      "displayName": "控柜绿灯",
+      "rect": [
+        65.70933,
+        75.51325,
+        19.56467,
+        19.56467
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/common/指示灯/控柜红灯.json",
+      "displayName": "控柜红灯",
+      "rect": [
+        113.61171,
+        34.58658,
+        19.56467,
+        19.56467
+      ]
+    },
+    {
+      "type": "image",
+      "color": "rgb(124,145,155)",
+      "name": "symbols/common/指示灯/控柜绿灯.json",
+      "displayName": "控柜绿灯",
+      "rect": [
+        113.61171,
+        75.51325,
+        19.56467,
+        19.56467
+      ]
+    },
+    {
+      "type": "image",
+      "color": null,
+      "name": "symbols/widget/button/控柜绿按钮.json",
+      "displayName": "控柜绿按钮",
+      "rect": [
+        39.6231,
+        120.50007,
+        26.08623,
+        26.08623
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/widget/button/控柜绿按钮.json",
+      "displayName": "控柜绿按钮",
+      "rect": [
+        85.274,
+        120.50007,
+        26.08623,
+        26.08623
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/widget/button/控柜红按钮.json",
+      "displayName": "控柜绿按钮",
+      "rect": [
+        133.17638,
+        120.50007,
+        26.08623,
+        26.08623
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/widget/button/控柜转钮.json",
+      "displayName": "控柜转钮",
+      "rect": [
+        180.43528,
+        120.50007,
+        26.08623,
+        26.08623
+      ]
+    },
+    {
+      "type": "text",
+      "text": "电源",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        113.31958,
+        48.6589,
+        20.33829,
+        26.85435
+      ]
+    },
+    {
+      "type": "text",
+      "text": "正转",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        65.32252,
+        88.94043,
+        20.33829,
+        26.85435
+      ]
+    },
+    {
+      "type": "text",
+      "text": "反转",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        113.31958,
+        88.94043,
+        20.33829,
+        26.85435
+      ]
+    },
+    {
+      "type": "text",
+      "text": "故障",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        160.4838,
+        88.94043,
+        20.33829,
+        26.85435
+      ]
+    },
+    {
+      "type": "text",
+      "text": "正转",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        42.49707,
+        142.16201,
+        20.33829,
+        26.85435
+      ]
+    },
+    {
+      "type": "text",
+      "text": "反转",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        88.14797,
+        142.16201,
+        20.33829,
+        26.85435
+      ]
+    },
+    {
+      "type": "text",
+      "text": "停止",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        135.44775,
+        142.16201,
+        20.33829,
+        26.85435
+      ]
+    },
+    {
+      "type": "text",
+      "text": "本地/远程",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        183.30925,
+        142.16201,
+        20.33829,
+        26.85435
+      ]
+    },
+    {
+      "type": "image",
+      "name": "assets/设备/柜把手.png",
+      "displayName": "柜把手",
+      "rect": [
+        167.54179,
+        165.67455,
+        52.40188,
+        80.28545
+      ]
+    },
+    {
+      "type": "triangle",
+      "background": "rgb(247,247,247)",
+      "borderWidth": 0.3,
+      "borderColor": "rgb(250,250,250)",
+      "gradient": "spread.south",
+      "gradientColor": "rgb(129,135,138)",
+      "rotation": 3.92699,
+      "rect": [
+        189.98957,
+        126.52801,
+        6.97765,
+        14.03034
+      ]
+    }
+  ]
+}

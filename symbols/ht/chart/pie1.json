@@ -1,0 +1,92 @@
+{
+  "modified": "Tue Mar 26 2019 15:24:51 GMT+0800 (中国标准时间)",
+  "width": 300,
+  "height": 300,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/ht/chart/pie.json",
+      "displayName": "pie",
+      "rect": [
+        0,
+        0,
+        300,
+        300
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onMove.apply(this, arguments);\n}",
+      "pieData": [
+        {
+          "value": 25,
+          "name": "股票"
+        },
+        {
+          "value": 30,
+          "name": "基金"
+        },
+        {
+          "value": 30,
+          "name": "房产"
+        },
+        {
+          "value": 15,
+          "name": "信托"
+        },
+        {
+          "value": 15,
+          "name": "债券"
+        },
+        {
+          "value": 10,
+          "name": "养老"
+        },
+        {
+          "value": 15,
+          "name": "教育"
+        },
+        {
+          "value": 10,
+          "name": "汽车"
+        },
+        {
+          "value": 15,
+          "name": "出行"
+        },
+        {
+          "value": 10,
+          "name": "穿衣",
+          "labelLine": {
+            "length": 25,
+            "length2": 15
+          }
+        }
+      ],
+      "radius": [
+        "15",
+        "25%"
+      ],
+      "labelLine": {
+        "normal": {
+          "show": true
+        },
+        "emphasis": {
+          "show": true,
+          "length2": 15,
+          "width": 2
+        }
+      },
+      "label": {
+        "normal": {
+          "show": false
+        },
+        "emphasis": {
+          "show": true,
+          "formatter": "{b}\n百分比: {d}"
+        }
+      },
+      "seriesName": "资产分配"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "background": "rgb(207,207,207)",
+  "width": 288,
+  "height": 836,
+  "boundExtend": 40,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "rgb(138,138,138)",
+      "cornerRadius": 12,
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.20)",
+      "shadowBlur": 64,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 8,
+      "displayName": "节点",
+      "rect": [
+        15.93112,
+        16.64305,
+        256.13776,
+        819.35695
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "rgb(138,138,138)",
+      "cornerRadius": 12,
+      "shadowColor": "rgba(0,0,0,0.20)",
+      "shadowBlur": 64,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 8,
+      "displayName": "节点",
+      "rect": [
+        0,
+        0,
+        288,
+        836
+      ]
+    }
+  ]
+}

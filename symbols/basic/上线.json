@@ -1,0 +1,420 @@
+{
+  "width": 147,
+  "height": 202,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgba(6,13,36,0.80)",
+      "borderColor": "#979797",
+      "shadowColor": "#1ABC9C",
+      "points": [
+        3.11312,
+        10.09159,
+        12.74,
+        10.09159,
+        124.7029,
+        10.09159,
+        145.23627,
+        32.24383,
+        145.23627,
+        199.81833,
+        10.04846,
+        199.81833,
+        3.11312,
+        192.17957,
+        3.11312,
+        108.27496,
+        5.69088,
+        105.08869,
+        5.69088,
+        94.40235,
+        3.11312,
+        92.27758
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,16,61)",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "shadowColor": "#1ABC9C",
+      "rotation": -1.5708,
+      "closePath": true,
+      "points": [
+        -2.56448,
+        98.63131,
+        -0.67003,
+        100.95168,
+        6.62261,
+        100.95168,
+        8.98558,
+        98.63131,
+        -2.56448,
+        98.63131
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "shadowColor": "#1ABC9C",
+      "scaleX": -1,
+      "rotation": -1.5708,
+      "points": [
+        -81.13294,
+        104.31512,
+        -81.13298,
+        94.47128,
+        1.0937,
+        94.47522,
+        3.25964,
+        96.97046,
+        13.86085,
+        96.97046,
+        16.47333,
+        94.47522,
+        97.39357,
+        94.47049,
+        108.55843,
+        104.31442,
+        108.55848,
+        115.47481
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "shadowColor": "#1ABC9C",
+      "rotation": -1.5708,
+      "points": [
+        21.17415,
+        111.30003,
+        21.17404,
+        133.77597,
+        194.8651,
+        133.77648,
+        211.07834,
+        119.50166,
+        211.0785,
+        75.8738
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "shadowColor": "#1ABC9C",
+      "rotation": -1.5708,
+      "points": [
+        77.08182,
+        164.40473,
+        77.08329,
+        37.66513
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "shadowColor": "#1ABC9C",
+      "rotation": -1.5708,
+      "points": [
+        32.12787,
+        150.49725,
+        116.22153,
+        150.49824
+      ]
+    },
+    {
+      "type": "text",
+      "text": "上线",
+      "color": "#60ACFC",
+      "shadow": true,
+      "shadowColor": "#60ACFC",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "rect": [
+        32.61259,
+        4.03547,
+        33.92696,
+        16.1419
+      ]
+    },
+    {
+      "type": "text",
+      "text": "说明文本文本文本",
+      "color": "rgb(247,247,247)",
+      "shadowColor": "rgb(247,247,247)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        11.05011,
+        28.46222,
+        44.64133,
+        21.23962
+      ]
+    },
+    {
+      "type": "text",
+      "text": "说明文本文本",
+      "color": "rgb(247,247,247)",
+      "shadowColor": "rgb(247,247,247)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        11.05011,
+        46.6603,
+        44.64133,
+        21.23962
+      ]
+    },
+    {
+      "type": "text",
+      "text": "说明文本文本文",
+      "color": "rgb(247,247,247)",
+      "shadowColor": "rgb(247,247,247)",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        11.05011,
+        64.85837,
+        44.64133,
+        21.23962
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(0,0,0)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rect": [
+        15.75881,
+        114.72738,
+        4,
+        66.2083
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rect": [
+        15.75881,
+        128.96009,
+        4,
+        51.9756
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(0,0,0)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rect": [
+        31.37078,
+        114.72738,
+        4,
+        66.2083
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rect": [
+        31.37078,
+        150.49774,
+        4,
+        30.43794
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(0,0,0)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rect": [
+        47.57607,
+        114.72738,
+        4,
+        66.2083
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rect": [
+        47.57607,
+        138.18201,
+        4,
+        42.75368
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(0,0,0)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rect": [
+        61.01978,
+        114.72738,
+        4,
+        66.2083
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rect": [
+        61.01978,
+        124.02764,
+        4,
+        56.90804
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(0,0,0)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rotation": 1.5708,
+      "rect": [
+        108.38569,
+        92.34041,
+        4,
+        46.42222
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rotation": 1.5708,
+      "rect": [
+        103.39603,
+        97.33007,
+        4,
+        36.4429
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(0,0,0)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rotation": 1.5708,
+      "rect": [
+        108.38569,
+        107.95238,
+        4,
+        46.42222
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rotation": 1.5708,
+      "rect": [
+        95.84542,
+        120.49265,
+        4,
+        21.34168
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(0,0,0)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rotation": 1.5708,
+      "rect": [
+        108.38569,
+        124.15767,
+        4,
+        46.42222
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rotation": 1.5708,
+      "rect": [
+        100.16304,
+        132.38032,
+        4,
+        29.97691
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(0,0,0)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rotation": 1.5708,
+      "rect": [
+        108.38569,
+        137.60138,
+        4,
+        46.42222
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rotation": 1.5708,
+      "rect": [
+        105.12523,
+        140.86184,
+        4,
+        39.9013
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(0,0,0)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rotation": 1.5708,
+      "rect": [
+        108.38569,
+        155.72457,
+        4,
+        46.42222
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(51,153,255)",
+      "borderColor": "#979797",
+      "cornerRadius": 2,
+      "rotation": 1.5708,
+      "rect": [
+        95.42062,
+        168.68964,
+        4,
+        20.49208
+      ]
+    }
+  ]
+}

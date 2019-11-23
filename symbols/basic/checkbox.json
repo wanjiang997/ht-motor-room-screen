@@ -1,0 +1,89 @@
+{
+  "dataBindings": [
+    {
+      "attr": "checkbox.checked",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "是否选中"
+    },
+    {
+      "attr": "checkbox.onchange",
+      "valueType": "Function",
+      "name": "选中变化"
+    }
+  ],
+  "onUp": "__ht__function(event, data, view, point, width, height) {\nif (point.x > 0 && point.x < width && point.y > 0 && point.y < height) {\n    var value = !data.a('checkbox.checked');\n    data.a('checkbox.checked', value);\n    if (data.a('checkbox.onchange')) data.a('checkbox.onchange')(data, view, value);\n}\n}",
+  "width": 26,
+  "height": 16,
+  "disableSelectedBorder": true,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": "#979797",
+      "borderColor": "#979797",
+      "cornerRadius": 1,
+      "visible": {
+        "func": "__ht__function(data, view) {\nreturn !data || !data.a('checkbox.checked');\n}",
+        "value": true
+      },
+      "shadowColor": "#1ABC9C",
+      "rect": [
+        0,
+        0,
+        26,
+        16
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "cornerRadius": 1,
+      "visible": {
+        "func": "__ht__function(data, view) {\nreturn !data || !data.a('checkbox.checked');\n}",
+        "value": true
+      },
+      "shadowColor": "#1ABC9C",
+      "rect": [
+        1.9355,
+        2,
+        12,
+        12
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "#3399FF",
+      "borderColor": "#979797",
+      "cornerRadius": 1,
+      "visible": {
+        "func": "__ht__function(data, view) {\nreturn data && data.a('checkbox.checked');\n}",
+        "value": true
+      },
+      "shadowColor": "#1ABC9C",
+      "rect": [
+        0,
+        0,
+        26,
+        16
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "cornerRadius": 1,
+      "visible": {
+        "func": "__ht__function(data, view) {\nreturn data && data.a('checkbox.checked');\n}",
+        "value": true
+      },
+      "shadowColor": "#1ABC9C",
+      "rect": [
+        12.23171,
+        2,
+        12,
+        12
+      ]
+    }
+  ]
+}

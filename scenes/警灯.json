@@ -1,0 +1,123 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "Bloom": {
+        "enable": false,
+        "strength": 1.5,
+        "threshold": 0.55,
+        "radius": 0.4
+      },
+      "Dof": {
+        "enable": false,
+        "aperture": 0.025,
+        "maxblur": 1,
+        "image": null
+      }
+    }
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 1594,
+      "p": {
+        "position": {
+          "x": 204.18191,
+          "y": 102.7144
+        },
+        "anchorElevation": 0,
+        "width": 191.63618,
+        "height": 194.57121,
+        "tall": 20
+      },
+      "s": {
+        "shape3d": "cylinder",
+        "shape3d.color": "rgb(54,21,21)",
+        "shape3d.side": 300,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1595,
+      "p": {
+        "position": {
+          "x": 204.18191,
+          "y": 100
+        },
+        "anchorElevation": 0,
+        "width": 150,
+        "height": 150,
+        "tall": 100
+      },
+      "s": {
+        "shape3d": "cylinder",
+        "shape3d.color": "rgb(224,4,37)",
+        "shape3d.side": 300,
+        "shape3d.opacity": 0.85,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "shape3d.blend": "rgb(219,88,88)",
+        "select.brightness": 1,
+        "envmap": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1596,
+      "p": {
+        "position": {
+          "x": 204.18191,
+          "y": 100
+        },
+        "anchorElevation": 0,
+        "width": 150,
+        "height": 150,
+        "tall": 150,
+        "elevation": 24.4441
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "rgb(224,25,55)",
+        "shape3d.side": 300,
+        "shape3d.from.visible": false,
+        "shape3d.to.visible": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      432.98528,
+      242.03496,
+      -274.79711
+    ],
+    "center": [
+      -12.79325,
+      20.79498,
+      78.68659
+    ],
+    "near": 10,
+    "far": 10000,
+    "gridVisible": true,
+    "gridSize": 50,
+    "gridGap": 50,
+    "gridColor": [
+      0.4,
+      0.75,
+      0.85,
+      1
+    ],
+    "editHelperDisabled": false
+  }
+}

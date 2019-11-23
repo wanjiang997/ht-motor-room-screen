@@ -1,0 +1,55 @@
+{
+  "modified": "Tue Dec 04 2018 20:43:24 GMT+0800 (中国标准时间)",
+  "width": 8,
+  "height": 15,
+  "comps": [
+    {
+      "type": "polygon",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,83,166)",
+      "rotation": 4.71239,
+      "rect": [
+        -5.02138,
+        1.89472,
+        9.65591,
+        10.56632
+      ]
+    },
+    {
+      "type": "polygon",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,83,166)",
+      "rotation": 4.71239,
+      "rect": [
+        -0.82795,
+        -5.36101,
+        9.65591,
+        10.56632
+      ]
+    },
+    {
+      "type": "polygon",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,83,166)",
+      "rotation": 4.71239,
+      "rect": [
+        3.36547,
+        1.89472,
+        9.65591,
+        10.56632
+      ]
+    },
+    {
+      "type": "polygon",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,83,166)",
+      "rotation": 4.71239,
+      "rect": [
+        -0.82795,
+        9.16226,
+        9.65591,
+        10.56632
+      ]
+    }
+  ]
+}

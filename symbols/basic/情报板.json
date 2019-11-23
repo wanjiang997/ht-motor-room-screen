@@ -1,0 +1,138 @@
+{
+  "dataBindings": [
+    {
+      "attr": "clipDirection",
+      "valueType": "ClipDirection"
+    },
+    {
+      "attr": "limitText",
+      "valueType": "String"
+    },
+    {
+      "attr": "clipPercentage",
+      "valueType": "Percentage"
+    }
+  ],
+  "previewURL": "symbol-basic-infoboard.html",
+  "width": 344,
+  "height": 58,
+  "clip": true,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgb(150,150,150)",
+      "borderColor": "#979797",
+      "rect": [
+        0,
+        0,
+        344,
+        58
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(23,23,23)",
+      "borderWidth": 2,
+      "borderColor": "rgb(0,0,0)",
+      "rect": [
+        5.88041,
+        4.16112,
+        332.23918,
+        49.67776
+      ]
+    },
+    {
+      "type": "circle",
+      "borderWidth": 4,
+      "borderColor": "#D0011B",
+      "rect": [
+        24.39301,
+        9.64648,
+        40.82384,
+        38.70705
+      ]
+    },
+    {
+      "type": "text",
+      "text": "80",
+      "color": "#F6A623",
+      "font": "24px arial, sans-serif",
+      "rect": [
+        30.17268,
+        4,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(255,255,255,0.09)",
+      "borderColor": "#979797",
+      "clipPercentage": {
+        "func": "attr@clipDirection",
+        "value": 1
+      },
+      "clipDirection": {
+        "func": "attr@clipDirection",
+        "value": "top"
+      },
+      "points": [
+        157.46041,
+        7.71521,
+        234.96319,
+        5.96175,
+        145.32349,
+        51.55163,
+        157.46041,
+        51.55163,
+        251.79637,
+        7.01383,
+        334.20883,
+        6.66314,
+        334.91022,
+        51.55163,
+        82.76315,
+        51.55163,
+        82.76315,
+        51.55163,
+        156.75902,
+        7.71521
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "限速80，请开车灯"
+      },
+      "align": "center",
+      "color": "rgb(245,164,34)",
+      "font": "28px arial, sans-serif",
+      "visible": {
+        "func": "attr@textVisible",
+        "value": true
+      },
+      "clipPercentage": {
+        "func": "attr@clipPercentage",
+        "value": 1
+      },
+      "clipDirection": {
+        "func": "attr@clipDirection",
+        "value": "right"
+      },
+      "anchorX": {
+        "func": "__ht__function(data, view) {\nif (data.a('clipDirection') === 'right') {\r\n    return 1\r\n} else {\r\n    return 0\r\n}\n}",
+        "value": 0
+      },
+      "rect": {
+        "func": "__ht__function(data, view) {\nvar clipPercentage = data.a('clipPercentage')\r\nvar clipDirection = data.a('clipDirection')\r\nif (clipPercentage === undefined) {\r\n    clipPercentage = 1\r\n}\r\nif (clipDirection === 'left') {\r\n    return [85 - 250 * (1 - clipPercentage), 4, 250, 50]\r\n} else {\r\n    return [85 + 250 * (1 - clipPercentage), 4, 250, 50]\r\n}\n}",
+        "value": [
+          85,
+          4,
+          250,
+          50
+        ]
+      }
+    }
+  ]
+}

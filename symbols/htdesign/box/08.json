@@ -1,0 +1,196 @@
+{
+  "modified": "Mon Jan 14 2019 16:02:51 GMT+0800 (中国标准时间)",
+  "width": 281,
+  "height": 85,
+  "boundExtend": 1,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgb(0,139,252)",
+      "borderColor": "#979797",
+      "scaleX": -1,
+      "rotation": 1.5708,
+      "points": [
+        264.11617,
+        -9.043,
+        265.59997,
+        -6.4344,
+        265.59999,
+        18.57665,
+        264.1162,
+        16.76148
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,139,252)",
+      "fillRule": "evenodd",
+      "rotation": 3.14159,
+      "points": [
+        244.94071,
+        1.64977,
+        251.04825,
+        5.50876,
+        233.76683,
+        5.50876,
+        227.52499,
+        1.64977
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(3,11,33)",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,157,219)",
+      "gradient": "linear.east",
+      "gradientColor": "rgba(1,17,74,0.70)",
+      "opacity": 0.5,
+      "rect": [
+        0,
+        9.17004,
+        281,
+        75.82996
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,139,252)",
+      "borderColor": "#979797",
+      "rotation": 1.5708,
+      "points": [
+        14.1503,
+        -8.6169,
+        15.59066,
+        -6.08468,
+        15.59069,
+        18.194,
+        14.15035,
+        16.43199
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,139,252)",
+      "fillRule": "evenodd",
+      "scaleX": -1,
+      "rotation": 3.14159,
+      "points": [
+        45.67981,
+        1.76276,
+        51.60851,
+        5.50876,
+        34.83313,
+        5.50876,
+        28.77406,
+        1.76276
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(25,81,138,0.50)",
+      "borderColor": "rgb(97,3,3)",
+      "fillRule": "evenodd",
+      "rotation": 3.14159,
+      "points": [
+        240.44509,
+        0.00027,
+        240.44509,
+        12.02205,
+        225.87191,
+        20.97537,
+        50.09255,
+        20.97537,
+        36.92265,
+        12.02205,
+        36.92265,
+        0.00027
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgba(0,0,0,0.39)",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,178,255)",
+      "gradient": "spread.horizontal",
+      "gradientColor": "rgb(22,121,242)",
+      "closePath": true,
+      "points": [
+        36.83515,
+        20.77342,
+        36.83515,
+        9.26656,
+        51.34244,
+        0.57667,
+        138.64012,
+        0.57667,
+        138.64012,
+        20.77342
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(3,11,33)",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,157,219)",
+      "gradient": "linear.east",
+      "gradientColor": "rgba(1,17,74,0.70)",
+      "cornerRadius": 12,
+      "opacity": 0.5,
+      "rect": [
+        146.38382,
+        29.2916,
+        86.4941,
+        24
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(3,11,33)",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,157,219)",
+      "gradient": "linear.east",
+      "gradientColor": "rgba(1,17,74,0.70)",
+      "cornerRadius": 12,
+      "opacity": 0.5,
+      "rect": [
+        146.38382,
+        55.93333,
+        86.4941,
+        24
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(3,11,33)",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,157,219)",
+      "gradient": "linear.east",
+      "gradientColor": "rgba(1,17,74,0.70)",
+      "cornerRadius": 12,
+      "opacity": 0.5,
+      "rect": [
+        43.46204,
+        29.2916,
+        86.4941,
+        24
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(3,11,33)",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,157,219)",
+      "gradient": "linear.east",
+      "gradientColor": "rgba(1,17,74,0.70)",
+      "cornerRadius": 12,
+      "opacity": 0.5,
+      "rect": [
+        43.46204,
+        55.93333,
+        86.4941,
+        24
+      ]
+    }
+  ]
+}

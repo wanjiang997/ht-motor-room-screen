@@ -1,0 +1,3342 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "background": "rgb(61,61,61)",
+    "envmap": "assets/贴图/环境光/室内2.jpg",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "Bloom": {
+        "enable": false,
+        "strength": 0.36,
+        "threshold": 0.18,
+        "radius": 0.4
+      },
+      "Dof": {
+        "enable": false,
+        "aperture": 0.025,
+        "maxblur": 1,
+        "image": null
+      }
+    }
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 22392,
+      "p": {
+        "rotation": -0.61087,
+        "position": {
+          "x": -116.67283,
+          "y": 374.45471
+        },
+        "anchorElevation": 0,
+        "width": 65.35869,
+        "height": 54.36064,
+        "tall": 108.06
+      },
+      "s": {
+        "shape3d": "models/机房/消防设施/消防设备.json",
+        "envmap": 0.1,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22393,
+      "p": {
+        "position": {
+          "x": 0,
+          "y": -772.81968
+        },
+        "anchorElevation": 0,
+        "width": 65.35869,
+        "height": 54.36064,
+        "tall": 108.06
+      },
+      "s": {
+        "shape3d": "models/机房/消防设施/消防设备.json",
+        "envmap": 0.1,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 22394,
+      "p": {
+        "displayName": "地面光",
+        "rotation": 1.5708,
+        "position": {
+          "x": 162.57657,
+          "y": -686.97196
+        },
+        "anchorElevation": 0,
+        "width": 276.60508,
+        "height": 163.15314,
+        "tall": 1,
+        "elevation": 0.82952,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 24.27403,
+              "y": -768.54852
+            },
+            {
+              "x": 300.87911,
+              "y": -768.54852
+            },
+            {
+              "x": 300.87911,
+              "y": -605.3954
+            },
+            {
+              "x": 24.27403,
+              "y": -605.3954
+            }
+          ]
+        },
+        "thickness": -1
+      },
+      "s": {
+        "shape3d.color": "#EEEEEE",
+        "shape3d.top.color": "#EEEEEE",
+        "shape3d.bottom.color": "#EEEEEE",
+        "shape.background": "#EEEEEE",
+        "shape3d.top.image": "assets/贴图/门地面灯光.png",
+        "shape3d.transparent": true,
+        "shape3d.visible": false,
+        "shape3d.bottom.visible": false,
+        "shape3d.from.visible": false,
+        "shape3d.to.visible": false,
+        "shape3d.reverse.cull": true,
+        "shape3d.opacity": 1,
+        "select.brightness": 1,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22395,
+      "p": {
+        "rotation": -3.14159,
+        "position": {
+          "x": 3.75,
+          "y": 758.22441
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "width": 185,
+        "elevation": 110
+      },
+      "s": {
+        "shape3d": "models/卫通机房/喀什/交流配电箱.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22396,
+      "p": {
+        "rotation": -2.35619,
+        "position": {
+          "x": -153.5316,
+          "y": 684.23563
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "width": 185,
+        "elevation": 110
+      },
+      "s": {
+        "shape3d": "models/卫通机房/喀什/交流配电箱.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22397,
+      "p": {
+        "displayName": "控制柜",
+        "rotation": -1.13446,
+        "position": {
+          "x": 185.07,
+          "y": 627.42215
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.4,
+          "y": 0.4
+        },
+        "scaleTall": 0.4,
+        "width": 281.38785,
+        "height": 66.94905,
+        "tall": 372.08403,
+        "elevation": 85
+      },
+      "s": {
+        "all.color": "rgb(189,184,181)",
+        "front.image": "symbols/隧道demo/控制柜.json",
+        "back.image": "symbols/隧道demo/控制柜.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22398,
+      "p": {
+        "displayName": "空调柜16",
+        "tag": "ele2",
+        "rotation": 1.5708,
+        "position": {
+          "x": 230,
+          "y": -355.56602
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "width": 70,
+        "height": 60,
+        "tall": 180
+      },
+      "s": {
+        "shape3d": "models/国信机房/空调柜.json",
+        "envmap": 0.17,
+        "wf.visible": "selected",
+        "wf.short": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22399,
+      "p": {
+        "displayName": "空调柜15",
+        "tag": "ele2",
+        "rotation": 1.5708,
+        "position": {
+          "x": 230,
+          "y": -270.28301
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "width": 70,
+        "height": 60,
+        "tall": 180
+      },
+      "s": {
+        "shape3d": "models/国信机房/空调柜.json",
+        "envmap": 0.17,
+        "wf.visible": "selected",
+        "wf.short": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22400,
+      "p": {
+        "displayName": "空调柜14",
+        "tag": "ele1",
+        "rotation": 1.5708,
+        "position": {
+          "x": 230,
+          "y": -185
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "width": 70,
+        "height": 60,
+        "tall": 180
+      },
+      "s": {
+        "shape3d": "models/国信机房/空调柜.json",
+        "envmap": 0.17,
+        "wf.visible": "selected",
+        "wf.short": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22401,
+      "p": {
+        "displayName": "空调柜13",
+        "tag": "ele2",
+        "rotation": 0.87266,
+        "position": {
+          "x": 156.93354,
+          "y": 395.45471
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "width": 70,
+        "height": 60,
+        "tall": 180
+      },
+      "s": {
+        "shape3d": "models/国信机房/空调柜.json",
+        "envmap": 0.17,
+        "wf.visible": "selected",
+        "wf.short": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22402,
+      "p": {
+        "displayName": "空调柜12",
+        "tag": "ele2",
+        "rotation": 0.87266,
+        "position": {
+          "x": 111.45464,
+          "y": 340.72321
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0
+        },
+        "anchorElevation": 0,
+        "width": 70,
+        "height": 60,
+        "tall": 180
+      },
+      "s": {
+        "shape3d": "models/国信机房/空调柜.json",
+        "envmap": 0.17,
+        "wf.visible": "selected",
+        "wf.short": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22403,
+      "p": {
+        "displayName": "1号机柜",
+        "tag": "cabinet2",
+        "rotation": -1.5708,
+        "position": {
+          "x": -120,
+          "y": -439.002
+        },
+        "elevation": 102.76444
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/机柜42U.json",
+        "envmap": 0.06,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22404,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22403
+        },
+        "host": {
+          "__i": 22403
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -117.99875,
+          "y": -439.82271
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 181
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/Spectrum analyzer.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22405,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22403
+        },
+        "host": {
+          "__i": 22403
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -117.99875,
+          "y": -439.82271
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 175
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/Low fly.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22406,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22403
+        },
+        "host": {
+          "__i": 22403
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -115.01496,
+          "y": -439.00202
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.38,
+          "y": 0.6
+        },
+        "scaleTall": 0.38,
+        "tall": 153,
+        "elevation": 116
+      },
+      "s": {
+        "shape3d": "models/卫通机房/x-chassis.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22407,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22403
+        },
+        "host": {
+          "__i": 22403
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -115.01496,
+          "y": -439.00202
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.38,
+          "y": 0.6
+        },
+        "scaleTall": 0.38,
+        "elevation": 58
+      },
+      "s": {
+        "shape3d": "models/卫通机房/x-chassis.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22408,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22403
+        },
+        "host": {
+          "__i": 22403
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -115.01496,
+          "y": -439.00202
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.38,
+          "y": 0.6
+        },
+        "scaleTall": 0.38
+      },
+      "s": {
+        "shape3d": "models/卫通机房/x-chassis.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22409,
+      "p": {
+        "displayName": "右42U",
+        "parent": {
+          "__i": 22403
+        },
+        "host": {
+          "__i": 22403
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -75.84716,
+          "y": -467.50267
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22410,
+      "p": {
+        "displayName": "左42U",
+        "parent": {
+          "__i": 22403
+        },
+        "host": {
+          "__i": 22403
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -75.847,
+          "y": -410.50157
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "shape3d.reverse.flip": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22411,
+      "p": {
+        "displayName": "notOpenDoor",
+        "parent": {
+          "__i": 22403
+        },
+        "host": {
+          "__i": 22403
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -169.92271,
+          "y": -438.61522
+        },
+        "anchorElevation": 0,
+        "elevation": 1.73885
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22412,
+      "p": {
+        "displayName": "门",
+        "parent": {
+          "__i": 22403
+        },
+        "host": {
+          "__i": 22403
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -70.07706,
+          "y": -408.27489
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "tall": 195.9158,
+        "elevation": 102.69675
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "envmap": 0.16,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22413,
+      "p": {
+        "displayName": "2号机柜",
+        "tag": "cabinet2",
+        "rotation": -1.5708,
+        "position": {
+          "x": -120,
+          "y": -379.00073
+        },
+        "elevation": 102.76444
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/机柜42U.json",
+        "envmap": 0.06,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22414,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -114,
+          "y": -378
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 2.5,
+          "y": 2.5
+        },
+        "scaleTall": 2.5,
+        "elevation": 165
+      },
+      "s": {
+        "shape3d": "models/卫通机房/喀什/RFT TX.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22415,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": -378
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 152
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/MGM AGG Switch.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22416,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": -378.50755
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "tall": 3,
+        "elevation": 147
+      },
+      "s": {
+        "shape3d": "models/卫通机房/MGM AGG.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22417,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": -378
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 141
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/MGM AGG Switch.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22418,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": -378
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "width": 37,
+        "tall": 3,
+        "elevation": 136
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/BB AGG Switch.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22419,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": -378.50755
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "tall": 3,
+        "elevation": 131
+      },
+      "s": {
+        "shape3d": "models/卫通机房/MGM AGG.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22420,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": -378
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "width": 37,
+        "tall": 3,
+        "elevation": 126
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/BB AGG Switch.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22421,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": -378
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 120
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/Main Mon Switch.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22422,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": -378.50755
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "tall": 3,
+        "elevation": 115
+      },
+      "s": {
+        "shape3d": "models/卫通机房/MGM AGG.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22423,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": -378.55406
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 109
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/VPN router.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22424,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": -378.55406
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 102
+      },
+      "s": {
+        "shape3d": "models/卫通机房/喀什/UTS.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22425,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": -378.55406
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 96
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/Spectrum analyzer.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22426,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": -378.55406
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 90
+      },
+      "s": {
+        "shape3d": "models/卫通机房/MGM.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22427,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": -378.55406
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 65
+      },
+      "s": {
+        "shape3d": "models/卫通机房/喀什/Port Server.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22428,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -115.01496,
+          "y": -377.61395
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.38,
+          "y": 0.6
+        },
+        "scaleTall": 0.38
+      },
+      "s": {
+        "shape3d": "models/卫通机房/x-chassis.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22429,
+      "p": {
+        "displayName": "右42U",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -75.84716,
+          "y": -407.5014
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22430,
+      "p": {
+        "displayName": "左42U",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -75.847,
+          "y": -350.5003
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "shape3d.reverse.flip": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22431,
+      "p": {
+        "displayName": "notOpenDoor",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -169.92271,
+          "y": -378.61395
+        },
+        "anchorElevation": 0,
+        "elevation": 1.73885
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22432,
+      "p": {
+        "displayName": "门",
+        "parent": {
+          "__i": 22413
+        },
+        "host": {
+          "__i": 22413
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -70.07706,
+          "y": -348.27362
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "tall": 195.9158,
+        "elevation": 102.69675
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "envmap": 0.16,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22433,
+      "p": {
+        "displayName": "3号机柜",
+        "tag": "cabinet2",
+        "rotation": -1.5708,
+        "position": {
+          "x": -120,
+          "y": -319.26966
+        },
+        "elevation": 102.76444
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/机柜42U.json",
+        "envmap": 0.06,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22434,
+      "p": {
+        "displayName": "右42U",
+        "parent": {
+          "__i": 22433
+        },
+        "host": {
+          "__i": 22433
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -75.84716,
+          "y": -347.77033
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22435,
+      "p": {
+        "displayName": "左42U",
+        "parent": {
+          "__i": 22433
+        },
+        "host": {
+          "__i": 22433
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -75.847,
+          "y": -290.76923
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "shape3d.reverse.flip": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22436,
+      "p": {
+        "displayName": "notOpenDoor",
+        "parent": {
+          "__i": 22433
+        },
+        "host": {
+          "__i": 22433
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -169.92271,
+          "y": -318.88288
+        },
+        "anchorElevation": 0,
+        "elevation": 1.73885
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22437,
+      "p": {
+        "displayName": "门",
+        "parent": {
+          "__i": 22433
+        },
+        "host": {
+          "__i": 22433
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -70.07706,
+          "y": -288.54255
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "tall": 195.9158,
+        "elevation": 102.69675
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "envmap": 0.16,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22438,
+      "p": {
+        "displayName": "4号机柜",
+        "tag": "cabinet2",
+        "rotation": -1.5708,
+        "position": {
+          "x": -120,
+          "y": -259.542
+        },
+        "elevation": 102.76444
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/机柜42U.json",
+        "envmap": 0.06,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22439,
+      "p": {
+        "displayName": "右42U",
+        "parent": {
+          "__i": 22438
+        },
+        "host": {
+          "__i": 22438
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -75.84716,
+          "y": -288.04267
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22440,
+      "p": {
+        "displayName": "左42U",
+        "parent": {
+          "__i": 22438
+        },
+        "host": {
+          "__i": 22438
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -75.847,
+          "y": -231.04157
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "shape3d.reverse.flip": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22441,
+      "p": {
+        "displayName": "notOpenDoor",
+        "parent": {
+          "__i": 22438
+        },
+        "host": {
+          "__i": 22438
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -169.92271,
+          "y": -259.15522
+        },
+        "anchorElevation": 0,
+        "elevation": 1.73885
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22442,
+      "p": {
+        "displayName": "门",
+        "parent": {
+          "__i": 22438
+        },
+        "host": {
+          "__i": 22438
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -70.07706,
+          "y": -228.81489
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "tall": 195.9158,
+        "elevation": 102.69675
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "envmap": 0.16,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22443,
+      "p": {
+        "displayName": "5-1号机柜",
+        "tag": "cabinet2",
+        "rotation": -1.5708,
+        "position": {
+          "x": -120,
+          "y": -199.81434
+        },
+        "elevation": 102.76444
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/机柜42U.json",
+        "envmap": 0.06,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22444,
+      "p": {
+        "displayName": "右42U",
+        "parent": {
+          "__i": 22443
+        },
+        "host": {
+          "__i": 22443
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -75.84716,
+          "y": -228.31501
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22445,
+      "p": {
+        "displayName": "左42U",
+        "parent": {
+          "__i": 22443
+        },
+        "host": {
+          "__i": 22443
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -75.847,
+          "y": -171.31391
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22446,
+      "p": {
+        "displayName": "notOpenDoor",
+        "parent": {
+          "__i": 22443
+        },
+        "host": {
+          "__i": 22443
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -169.92271,
+          "y": -199.72497
+        },
+        "anchorElevation": 0,
+        "elevation": 1.73885
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22447,
+      "p": {
+        "displayName": "门",
+        "parent": {
+          "__i": 22443
+        },
+        "host": {
+          "__i": 22443
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -70.01185,
+          "y": -170.47078
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "tall": 195.9158,
+        "elevation": 102.69675
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "envmap": 0.16,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22448,
+      "p": {
+        "displayName": "5-2号机柜",
+        "tag": "cabinet2",
+        "rotation": -1.5708,
+        "position": {
+          "x": -120,
+          "y": -139.99855
+        },
+        "elevation": 102.76444
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/机柜42U.json",
+        "envmap": 0.06,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22449,
+      "p": {
+        "displayName": "右42U",
+        "parent": {
+          "__i": 22448
+        },
+        "host": {
+          "__i": 22448
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -75.84716,
+          "y": -168.49922
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22450,
+      "p": {
+        "displayName": "左42U",
+        "parent": {
+          "__i": 22448
+        },
+        "host": {
+          "__i": 22448
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -75.847,
+          "y": -111.49812
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22451,
+      "p": {
+        "displayName": "notOpenDoor",
+        "parent": {
+          "__i": 22448
+        },
+        "host": {
+          "__i": 22448
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -169.92271,
+          "y": -139.90918
+        },
+        "anchorElevation": 0,
+        "elevation": 1.73885
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22452,
+      "p": {
+        "displayName": "门",
+        "parent": {
+          "__i": 22448
+        },
+        "host": {
+          "__i": 22448
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -70.07706,
+          "y": -110.59297
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "tall": 195.9158,
+        "elevation": 102.69675
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "envmap": 0.16,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22453,
+      "p": {
+        "displayName": "6号机柜",
+        "tag": "cabinet2",
+        "rotation": -1.5708,
+        "position": {
+          "x": -120,
+          "y": 489.99855
+        },
+        "elevation": 102.76444
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/机柜42U.json",
+        "envmap": 0.06,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22454,
+      "p": {
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -76,
+          "y": 490
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "elevation": 190
+      },
+      "s": {
+        "shape3d": "models/卫通机房/转接板02.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22455,
+      "p": {
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -76,
+          "y": 490
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "elevation": 180
+      },
+      "s": {
+        "shape3d": "models/卫通机房/转接板01.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22456,
+      "p": {
+        "displayName": "转接板02",
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -76,
+          "y": 490
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "elevation": 170
+      },
+      "s": {
+        "shape3d": "models/卫通机房/转接板02.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22457,
+      "p": {
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -76,
+          "y": 490
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "elevation": 160
+      },
+      "s": {
+        "shape3d": "models/卫通机房/转接板01.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22458,
+      "p": {
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -76,
+          "y": 490
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "elevation": 150
+      },
+      "s": {
+        "shape3d": "models/卫通机房/转接板02.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22459,
+      "p": {
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -76,
+          "y": 490
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "elevation": 140
+      },
+      "s": {
+        "shape3d": "models/卫通机房/转接板01.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22460,
+      "p": {
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -76,
+          "y": 490
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "elevation": 130
+      },
+      "s": {
+        "shape3d": "models/卫通机房/转接板02.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22461,
+      "p": {
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": -76,
+          "y": 490
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scaleTall": 0.5,
+        "elevation": 120
+      },
+      "s": {
+        "shape3d": "models/卫通机房/转接板01.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22462,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 490
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 110
+      },
+      "s": {
+        "shape3d": "models/卫通机房/喀什/LNADY.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22463,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 490
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 100
+      },
+      "s": {
+        "shape3d": "models/卫通机房/LNA Controller.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22464,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 490
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 90
+      },
+      "s": {
+        "shape3d": "models/卫通机房/BOC.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22465,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 490
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 80
+      },
+      "s": {
+        "shape3d": "models/卫通机房/BOC.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22466,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 490
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 70
+      },
+      "s": {
+        "shape3d": "models/卫通机房/喀什/HPA控制器.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22467,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -112,
+          "y": 490.82768
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 2.5,
+          "y": 2.5
+        },
+        "scaleTall": 2.5,
+        "elevation": 40
+      },
+      "s": {
+        "shape3d": "models/卫通机房/喀什/时频设备.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22468,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -106,
+          "y": 490.82768
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 2,
+          "y": 2
+        },
+        "scaleTall": 2,
+        "elevation": 20
+      },
+      "s": {
+        "shape3d": "models/卫通机房/充气机.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22469,
+      "p": {
+        "displayName": "右42U",
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -75.84716,
+          "y": 461.49788
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22470,
+      "p": {
+        "displayName": "左42U",
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -75.847,
+          "y": 518.49898
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22471,
+      "p": {
+        "displayName": "notOpenDoor",
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -169.92271,
+          "y": 490.08792
+        },
+        "anchorElevation": 0,
+        "elevation": 1.73885
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22472,
+      "p": {
+        "displayName": "门",
+        "parent": {
+          "__i": 22453
+        },
+        "host": {
+          "__i": 22453
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -70.07706,
+          "y": 519.40413
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "tall": 195.9158,
+        "elevation": 102.69675
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "envmap": 0.16,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22473,
+      "p": {
+        "displayName": "7号机柜",
+        "tag": "cabinet2",
+        "rotation": -1.5708,
+        "position": {
+          "x": -120,
+          "y": 550
+        },
+        "elevation": 102.76444
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/机柜42U.json",
+        "envmap": 0.06,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22474,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 550
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 186
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/dp-8.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22475,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -114,
+          "y": 550
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 2.5,
+          "y": 2.5
+        },
+        "scaleTall": 2.5,
+        "elevation": 172
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/Tracking Receiver.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22476,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -102,
+          "y": 550
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 2.2,
+          "y": 2.2
+        },
+        "scaleTall": 2.2,
+        "elevation": 132
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/antena.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22477,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 550
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 126
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/jtkg.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22478,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 550
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 120
+      },
+      "s": {
+        "shape3d": "models/卫通机房/喀什/手动控制盒.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22479,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 550
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 110
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/MOXA.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22480,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 550
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 100
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/kvm.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22481,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 550
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 90
+      },
+      "s": {
+        "shape3d": "models/卫通机房/Dell Server.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22482,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 550
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 80
+      },
+      "s": {
+        "shape3d": "models/卫通机房/Dell Server.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22483,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 550
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 70
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/TX Decimator.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22484,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 550
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 60
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/RX Decimator.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22485,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 550
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 50
+      },
+      "s": {
+        "shape3d": "models/卫通机房/怀来/UPC Decimator.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22486,
+      "p": {
+        "displayName": "服务器",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -118,
+          "y": 550.08937
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "scaleTall": 1.5,
+        "elevation": 40
+      },
+      "s": {
+        "shape3d": "models/卫通机房/NVR Switch.json",
+        "wf.visible": "selected",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22487,
+      "p": {
+        "displayName": "右42U",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -75.84716,
+          "y": 521.49933
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22488,
+      "p": {
+        "displayName": "左42U",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -75.847,
+          "y": 578.50043
+        },
+        "anchorElevation": 0,
+        "width": 3,
+        "height": 8,
+        "tall": 200,
+        "elevation": 2
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "assets/objs/机房/机柜/42U.jpg",
+        "2d.editable": false,
+        "3d.editable": false,
+        "select.brightness": 1,
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22489,
+      "p": {
+        "displayName": "notOpenDoor",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": 1.57079,
+        "position": {
+          "x": -169.92271,
+          "y": 550.08937
+        },
+        "anchorElevation": 0,
+        "elevation": 1.73885
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22490,
+      "p": {
+        "displayName": "门",
+        "parent": {
+          "__i": 22473
+        },
+        "host": {
+          "__i": 22473
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": -70.07706,
+          "y": 579.40558
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "tall": 195.9158,
+        "elevation": 102.69675
+      },
+      "s": {
+        "shape3d": "models/机房/机柜/门1.json",
+        "envmap": 0.16,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22491,
+      "p": {
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/卫通机房/喀什/diban.json",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22492,
+      "p": {
+        "displayName": "背景球",
+        "width": 90000,
+        "height": 90000,
+        "tall": 90000
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "#DDDDDD",
+        "shape3d.reverse.flip": true,
+        "shape3d.image": "assets/background/天空球.jpg",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 22493,
+      "p": {
+        "image": "symbols/3d场景用/属性框.json",
+        "rotation": 4.71239,
+        "position": {
+          "x": -199.4999,
+          "y": -628.28655
+        },
+        "anchorElevation": 0,
+        "width": 342,
+        "elevation": 27.5467
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d场景用/属性框.json",
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.vector.dynamic": true,
+        "shape3d.reverse.flip": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      624.99269,
+      948.10665,
+      297.74159
+    ],
+    "center": [
+      -128,
+      70,
+      108
+    ],
+    "near": 10,
+    "far": 2000000,
+    "background": "rgb(61,61,61)",
+    "gridVisible": false,
+    "gridSize": 25,
+    "gridGap": 46,
+    "gridColor": "rgb(49,210,235)",
+    "editHelperDisabled": false
+  }
+}

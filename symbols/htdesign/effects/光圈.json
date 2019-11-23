@@ -1,0 +1,20 @@
+{
+  "modified": "Tue Jan 15 2019 11:36:41 GMT+0800 (China Standard Time)",
+  "background": "rgb(61,61,61)",
+  "width": 512,
+  "height": 512,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/htdesign/effects/装饰圈.json",
+      "displayName": "装饰圈",
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ]
+    }
+  ]
+}

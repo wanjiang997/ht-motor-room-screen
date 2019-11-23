@@ -1,0 +1,87 @@
+{
+  "modified": "Mon Apr 01 2019 11:25:45 GMT+0800 (中国标准时间)",
+  "width": 128,
+  "height": 128,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "triangle",
+      "background": "rgba(0,0,0,0.74)",
+      "borderColor": "rgb(242,83,75)",
+      "borderJoin": "bevel",
+      "rect": [
+        20.93118,
+        26.12527,
+        86.13764,
+        67.56312
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 8,
+      "borderColor": "rgb(242,83,75)",
+      "borderJoin": "bevel",
+      "points": [
+        64,
+        48.65361,
+        64,
+        71.16006
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 8,
+      "borderColor": "rgb(242,83,75)",
+      "borderJoin": "bevel",
+      "points": [
+        64,
+        80.09934,
+        64,
+        85.8568
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 7,
+      "borderColor": "rgb(130,12,12)",
+      "borderJoin": "bevel",
+      "points": [
+        56.16964,
+        32.28877,
+        63.91347,
+        19.8604,
+        71.94411,
+        32.28877
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 7,
+      "borderColor": "rgb(130,12,12)",
+      "borderJoin": "bevel",
+      "points": [
+        31.09453,
+        96.77054,
+        16.35086,
+        96.77054,
+        24.63993,
+        82.97807
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 7,
+      "borderColor": "rgb(130,12,12)",
+      "borderJoin": "bevel",
+      "scaleX": -1,
+      "points": [
+        112.32002,
+        96.77054,
+        97.57636,
+        96.77054,
+        105.86542,
+        82.97807
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "modified": "Mon Mar 18 2019 16:34:32 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "series",
+      "valueType": "Object"
+    },
+    {
+      "attr": "xAxis",
+      "valueType": "Object"
+    }
+  ],
+  "width": 420,
+  "height": 280,
+  "boundExtend": 10,
+  "fitSize": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/ht/chart/chart.json",
+      "displayName": "chart",
+      "rect": [
+        0,
+        0,
+        420,
+        280
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onDown.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onMove.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onLeave.apply(this, arguments);\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onEndDrag.apply(this, arguments);\n}",
+      "series": {
+        "func": "attr@series",
+        "value": [
+          {
+            "type": "line",
+            "name": "收入",
+            "data": [
+              100,
+              208,
+              10,
+              10,
+              60,
+              70,
+              178,
+              340,
+              488,
+              190
+            ]
+          },
+          {
+            "type": "line",
+            "name": "支出",
+            "data": [
+              68,
+              53,
+              309,
+              119,
+              278
+            ]
+          },
+          {
+            "type": "line",
+            "name": "去年收入",
+            "data": [
+              53,
+              309,
+              119,
+              278,
+              311
+            ]
+          }
+        ]
+      },
+      "xAxis": {
+        "func": "attr@xAxis",
+        "value": [
+          {
+            "show": true,
+            "data": [
+              "2014年1月",
+              "2014年2月",
+              "2014年3月",
+              "2014年4月",
+              "2014年5月",
+              "2014年6月",
+              "2014年7月",
+              "2014年8月",
+              "2014年9月",
+              "2014年10月"
+            ]
+          }
+        ]
+      },
+      "rectSelectable": false
+    }
+  ]
+}

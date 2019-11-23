@@ -1,0 +1,247 @@
+{
+  "modified": "Mon Oct 29 2018 09:55:17 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "selectColor",
+      "valueType": "Color",
+      "defaultValue": "#60ACFC"
+    },
+    {
+      "attr": "layout.h",
+      "valueType": "String"
+    },
+    {
+      "attr": "layout.v",
+      "valueType": "String"
+    }
+  ],
+  "width": 100,
+  "height": 100,
+  "interactive": true,
+  "disableSelectedBorder": true,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "rect",
+      "borderColor": "#979797",
+      "displayName": "左侧交互",
+      "rect": [
+        5.51795,
+        27.5,
+        20.9641,
+        44.5
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nif (ht.Default.isShiftDown()) {\n    data.a('layout.h', 'leftright');\n}\nelse {\n    data.a('layout.h', 'left');\n}\n}"
+    },
+    {
+      "type": "rect",
+      "borderColor": "#979797",
+      "displayName": "右侧交互",
+      "rect": [
+        74.0359,
+        27.5,
+        20.9641,
+        45
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nif (ht.Default.isShiftDown()) {\n    data.a('layout.h', 'leftright');\n}\nelse {\n    data.a('layout.h', 'right');\n}\n}"
+    },
+    {
+      "type": "rect",
+      "borderColor": "#979797",
+      "displayName": "上侧交互",
+      "rect": [
+        27.5,
+        6,
+        45,
+        20
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nif (ht.Default.isShiftDown()) {\n    data.a('layout.v', 'topbottom');\n}\nelse {\n    data.a('layout.v', 'top');\n}\n}"
+    },
+    {
+      "type": "rect",
+      "borderColor": "#979797",
+      "displayName": "下侧交互",
+      "rect": [
+        27.5,
+        74,
+        45,
+        20
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nif (ht.Default.isShiftDown()) {\n    data.a('layout.v', 'topbottom');\n}\nelse {\n    data.a('layout.v', 'bottom');\n}\n}"
+    },
+    {
+      "type": "rect",
+      "borderColor": "#979797",
+      "displayName": "横向中心交互",
+      "rect": [
+        28.22051,
+        44,
+        16,
+        12
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\ndata.a('layout.h', 'center');\n}"
+    },
+    {
+      "type": "rect",
+      "borderColor": "#979797",
+      "displayName": "横向中心交互",
+      "rect": [
+        55.77949,
+        44,
+        16,
+        12
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\ndata.a('layout.h', 'center');\n}"
+    },
+    {
+      "type": "rect",
+      "borderColor": "#979797",
+      "displayName": "纵向中心交互",
+      "rect": [
+        44.22051,
+        28,
+        11.55897,
+        16
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\ndata.a('layout.v', 'center');\n}"
+    },
+    {
+      "type": "rect",
+      "borderColor": "#979797",
+      "displayName": "纵向中心交互",
+      "rect": [
+        44.22051,
+        56,
+        11.55897,
+        16
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\ndata.a('layout.v', 'center');\n}"
+    },
+    {
+      "type": "rect",
+      "borderWidth": 1,
+      "borderColor": "#d4d4d4",
+      "rect": [
+        5,
+        5,
+        90,
+        90
+      ]
+    },
+    {
+      "type": "rect",
+      "borderWidth": 1,
+      "borderColor": "#d4d4d4",
+      "borderPattern": [
+        6,
+        6
+      ],
+      "rect": [
+        27.5,
+        27.5,
+        45,
+        45
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar layoutH = data.a('layout.h');\nif (layoutH === 'left' || layoutH === 'leftright') {\n    return data.a('selectColor');\n}\nreturn '#d4d4d4';\n}",
+        "value": "#D4D4D4"
+      },
+      "borderColor": "#979797",
+      "rect": [
+        8,
+        48,
+        16,
+        4
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar layoutH = data.a('layout.h');\nif (layoutH === 'right' || layoutH === 'leftright') {\n    return data.a('selectColor');\n}\nreturn '#d4d4d4';\n}",
+        "value": "#D8D8D8"
+      },
+      "borderColor": "#979797",
+      "rect": [
+        76,
+        48,
+        16,
+        4
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar layoutH = data.a('layout.h');\nif (layoutH === 'center') {\n    return data.a('selectColor');\n}\nreturn '#d4d4d4';\n}",
+        "value": "#D8D8D8"
+      },
+      "borderColor": "#979797",
+      "rect": [
+        34,
+        48,
+        32,
+        4
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\ndata.a('layout.h', 'center');\n}"
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar layoutV = data.a('layout.v');\nif (layoutV === 'bottom' || layoutV === 'topbottom') {\n    return data.a('selectColor');\n}\nreturn '#d4d4d4';\n}",
+        "value": "#D8D8D8"
+      },
+      "borderColor": "#979797",
+      "rect": [
+        48,
+        76,
+        4,
+        16
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar layoutV = data.a('layout.v');\nif (layoutV === 'top' || layoutV === 'topbottom') {\n    return data.a('selectColor');\n}\nreturn '#d4d4d4';\n}",
+        "value": "#D8D8D8"
+      },
+      "borderColor": "#979797",
+      "rect": [
+        48,
+        8,
+        4,
+        16
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar layoutV = data.a('layout.v');\nif (layoutV === 'center') {\n    return data.a('selectColor');\n}\nreturn '#d4d4d4';\n}",
+        "value": "#D8D8D8"
+      },
+      "borderColor": "#979797",
+      "rect": [
+        48,
+        34,
+        4,
+        32
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\ndata.a('layout.v', 'center');\n}"
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nif (data.a('layout.h') === 'center' || data.a('layout.v')  === 'center') {\n    return data.a('selectColor');\n}\nreturn '#d4d4d4';\n}",
+        "value": "#D8D8D8"
+      },
+      "borderColor": "#979797",
+      "rect": [
+        48,
+        48,
+        4,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "modified": "Tue Dec 25 2018 12:10:10 GMT+0800 (China Standard Time)",
+  "dataBindings": [
+    {
+      "attr": "clipRadius",
+      "valueType": "String",
+      "defaultValue": "5 30",
+      "name": "裁切半径"
+    },
+    {
+      "attr": "image",
+      "valueType": "Image",
+      "name": "裁切图片"
+    }
+  ],
+  "width": 550,
+  "height": 351,
+  "clip": "__ht__function(g, width, height, data, view, image) {\nif (!data) return;\nvar max = Math.min(width, height) / 2,\n    clipRadius = data.a('clipRadius') || '0',\n    rs = clipRadius.trim().split(/\\s+/),\n    lt, rt, rb, lb;\nif (rs.length === 1) {\n    lt = rt = rb = lb = rs[0] * 1;\n}\nelse if (rs.length === 2) {\n    lt = rb = rs[0] * 1;\n    rt = lb = rs[1] * 1;\n}\nelse if (rs.length === 3) {\n    lt = rs[0] * 1;\n    rt = lb = rs[1] * 1;\n    rb = rs[2] * 1;\n}\nelse {\n    lt = rs[0] * 1;\n    rt = rs[1] * 1;\n    rb = rs[2] * 1;\n    lb = rs[3] * 1;\n}\n\nrs = [lt, rt, lb, rb].map(function(r){\n    return Math.min(r, max);\n});\n\n\ng.beginPath();\nht.Default.drawRoundRect(g, 0, 0, width, height, rs[0], rs[1], rs[2], rs[3]);\ng.clip();\n}",
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@image",
+        "value": "assets/展厅/海报.jpeg"
+      },
+      "displayName": "11229666",
+      "rect": [
+        0,
+        0,
+        550,
+        351
+      ]
+    }
+  ]
+}

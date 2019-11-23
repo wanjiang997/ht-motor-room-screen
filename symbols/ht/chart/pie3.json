@@ -1,0 +1,173 @@
+{
+  "modified": "Mon Jan 28 2019 19:19:57 GMT+0800 (中国标准时间)",
+  "width": 300,
+  "height": 300,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/ht/chart/pie.json",
+      "displayName": "pie",
+      "rect": [
+        0,
+        0,
+        300,
+        300
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onMove.apply(this, arguments);\n}",
+      "pieData": [
+        {
+          "name": "安卓开发",
+          "value": 6018
+        },
+        {
+          "name": "Android",
+          "value": 5811
+        },
+        {
+          "name": "安全员",
+          "value": 4596
+        },
+        {
+          "name": "asp.net",
+          "value": 2833
+        },
+        {
+          "name": "BD实习生",
+          "value": 7483
+        },
+        {
+          "name": "c++",
+          "value": 9764
+        },
+        {
+          "name": "产品经理",
+          "value": 270
+        },
+        {
+          "name": "测试人员",
+          "value": 7733
+        },
+        {
+          "name": "cobol开发",
+          "value": 2413
+        },
+        {
+          "name": "策划专员",
+          "value": 4297
+        },
+        {
+          "name": "储备干部",
+          "value": 5492
+        },
+        {
+          "name": "电商运营",
+          "value": 8373
+        },
+        {
+          "name": "电话销售",
+          "value": 388
+        },
+        {
+          "name": "电话营销",
+          "value": 1655
+        },
+        {
+          "name": "ERP",
+          "value": 6918
+        },
+        {
+          "name": "HTML5",
+          "value": 2584
+        },
+        {
+          "name": "JAVA",
+          "value": 5072
+        },
+        {
+          "name": "后端开发",
+          "value": 5366
+        },
+        {
+          "name": "IOS",
+          "value": 5095
+        },
+        {
+          "name": "会计",
+          "value": 1532
+        },
+        {
+          "name": "Linux",
+          "value": 7461
+        },
+        {
+          "name": "运维",
+          "value": 5596
+        },
+        {
+          "name": "Oracle",
+          "value": 4997
+        },
+        {
+          "name": "PHP",
+          "value": 5727
+        },
+        {
+          "name": "PS",
+          "value": 9135
+        },
+        {
+          "name": "UI",
+          "value": 4534
+        },
+        {
+          "name": "web前端",
+          "value": 2493
+        },
+        {
+          "name": "web后端",
+          "value": 2359
+        },
+        {
+          "name": "美工",
+          "value": 654
+        }
+      ],
+      "radius": [
+        "15",
+        "25%"
+      ],
+      "labelLine": {
+        "normal": {
+          "show": true,
+          "length2": 10,
+          "formatter": "",
+          "width": 1,
+          "type": "dashed",
+          "font": "8px serif"
+        },
+        "emphasis": {
+          "show": true,
+          "length2": 15,
+          "formatter": "",
+          "width": 2,
+          "type": "dashed",
+          "font": "8px serif"
+        }
+      },
+      "label": {
+        "normal": {
+          "show": false
+        },
+        "emphasis": {
+          "show": true,
+          "formatter": "{b}\n百分比:{d}"
+        }
+      },
+      "seriesName": "IT职位薪水",
+      "avoidLabelOverlap": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/机房/消防设备.obj",
+  "mtl": "assets/objs/机房/消防设备.mtl",
+  "image": "symbols/机房/消防设备.json",
+  "hx.associateObject": "消防设备"
+}

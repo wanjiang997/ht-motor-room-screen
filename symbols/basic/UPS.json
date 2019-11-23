@@ -1,0 +1,235 @@
+{
+  "width": 276,
+  "height": 146,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgb(0,7,28)",
+      "borderColor": "#979797",
+      "points": [
+        6.2665,
+        7.52228,
+        233.36709,
+        7.52228,
+        271.71852,
+        48.89736,
+        271.71852,
+        135.04012,
+        19.22005,
+        135.04012,
+        6.2665,
+        120.77276,
+        6.2665,
+        104.55543,
+        11.08114,
+        98.60425,
+        11.08114,
+        78.64473,
+        6.2665,
+        74.67616
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(0,16,61)",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "shadowColor": "#1ABC9C",
+      "rotation": -1.5708,
+      "closePath": true,
+      "points": [
+        -4.3379,
+        86.5434,
+        -0.79952,
+        90.87731,
+        12.82138,
+        90.87731,
+        17.23485,
+        86.5434,
+        -4.3379,
+        86.5434
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(26,31,56)",
+      "borderColor": "#979797",
+      "shadowColor": "#1ABC9C",
+      "points": [
+        6.62621,
+        6.54781,
+        6.62621,
+        48.33361,
+        271.28164,
+        48.33361,
+        271.28164,
+        47.48063,
+        234.75197,
+        6.54781
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "shadowColor": "#1ABC9C",
+      "scaleX": -1,
+      "rotation": -1.5708,
+      "points": [
+        -39.30976,
+        71.67245,
+        -39.30984,
+        53.2865,
+        27.98125,
+        53.29417,
+        32.02672,
+        57.95469,
+        51.82723,
+        57.95469,
+        56.70672,
+        53.29417,
+        76.95198,
+        53.28607,
+        91.43915,
+        66.05924,
+        91.43925,
+        92.51713
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(0,145,194)",
+      "borderCap": "square",
+      "shadowColor": "#1ABC9C",
+      "rotation": -1.5708,
+      "points": [
+        109.37184,
+        -22.29319,
+        109.37114,
+        168.29281,
+        212.60327,
+        168.29319,
+        242.88573,
+        141.63123,
+        242.88603,
+        60.14484
+      ]
+    },
+    {
+      "type": "circle",
+      "background": "rgb(125,195,125)",
+      "borderWidth": 1,
+      "borderColor": "rgb(83,145,83)",
+      "shadowColor": "#1ABC9C",
+      "rect": [
+        20.63876,
+        56.84507,
+        20.66937,
+        20.66937
+      ]
+    },
+    {
+      "type": "text",
+      "text": "充电状态",
+      "color": "rgb(247,247,247)",
+      "font": "16px arial, sans-serif",
+      "rect": [
+        49.88958,
+        45.64916,
+        86.12238,
+        43.06119
+      ]
+    },
+    {
+      "type": "circle",
+      "background": "rgb(125,195,125)",
+      "borderWidth": 1,
+      "borderColor": "rgb(83,145,83)",
+      "shadowColor": "#1ABC9C",
+      "rect": [
+        20.63876,
+        99.90626,
+        20.66937,
+        20.66937
+      ]
+    },
+    {
+      "type": "text",
+      "text": "逆变状态",
+      "color": "rgb(247,247,247)",
+      "font": "16px arial, sans-serif",
+      "rect": [
+        49.88958,
+        88.71035,
+        86.12238,
+        43.06119
+      ]
+    },
+    {
+      "type": "circle",
+      "background": "rgb(242,83,75)",
+      "borderWidth": 1,
+      "borderColor": "rgb(212,0,0)",
+      "shadowColor": "#1ABC9C",
+      "rect": [
+        155.90843,
+        56.84507,
+        20.66937,
+        20.66937
+      ]
+    },
+    {
+      "type": "text",
+      "text": "旁路状态",
+      "color": "rgb(247,247,247)",
+      "font": "16px arial, sans-serif",
+      "rect": [
+        185.15926,
+        45.64916,
+        86.12238,
+        43.06119
+      ]
+    },
+    {
+      "type": "circle",
+      "background": "rgb(124,145,155)",
+      "borderWidth": 1,
+      "borderColor": "rgb(68,86,94)",
+      "shadowColor": "#1ABC9C",
+      "rect": [
+        155.90843,
+        99.90626,
+        20.66937,
+        20.66937
+      ]
+    },
+    {
+      "type": "text",
+      "text": "故障",
+      "color": "rgb(247,247,247)",
+      "font": "16px arial, sans-serif",
+      "rect": [
+        185.15926,
+        88.71035,
+        86.12238,
+        43.06119
+      ]
+    },
+    {
+      "type": "text",
+      "text": "UPS-1",
+      "align": "center",
+      "color": "rgb(247,247,247)",
+      "font": "16px arial, sans-serif",
+      "rect": [
+        8.61547,
+        5.27242,
+        237.87043,
+        43.06119
+      ]
+    }
+  ]
+}

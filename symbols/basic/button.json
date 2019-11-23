@@ -1,0 +1,107 @@
+{
+  "dataBindings": [
+    {
+      "attr": "button.background.default",
+      "valueType": "Color",
+      "defaultValue": "#1AAE18",
+      "name": "默认背景色"
+    },
+    {
+      "attr": "button.background.pressed",
+      "valueType": "Color",
+      "defaultValue": "#179B16",
+      "name": "按下背景色"
+    },
+    {
+      "attr": "button.text",
+      "valueType": "String",
+      "defaultValue": "按钮",
+      "name": "文本内容"
+    },
+    {
+      "attr": "button.text.color",
+      "valueType": "Color",
+      "defaultValue": "#FFFFFF",
+      "name": "文本颜色"
+    },
+    {
+      "attr": "button.text.font",
+      "valueType": "String",
+      "name": "文本字体"
+    },
+    {
+      "attr": "button.pressed",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "按下"
+    },
+    {
+      "attr": "button.disabled",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "禁用"
+    },
+    {
+      "attr": "button.onclick",
+      "valueType": "Function",
+      "name": "点击"
+    }
+  ],
+  "onDown": "__ht__function(event, data, view, point, width, height) {\nif (data.a('button.disabled')) return;\ndata.a('button.pressed', true);\n}",
+  "onUp": "__ht__function(event, data, view, point, width, height) {\nif (!data.a('button.pressed')) return;\ndata.a('button.pressed', false);\nif (data.a('button.onclick') && point.x > 0 && point.x < width && point.y > 0 && point.y < height) {\n    data.a('button.onclick')(data, view);\n}\n}",
+  "width": 60,
+  "height": 30,
+  "fitSize": true,
+  "disableSelectedBorder": true,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "__ht__function(data, view) {\nif (!data) return undefined;\nreturn data.a('button.pressed') ? data.a('button.background.pressed') : data.a('button.background.default');\n}",
+        "value": "#1AAE18"
+      },
+      "borderColor": "#979797",
+      "cornerRadius": 1,
+      "rect": [
+        0,
+        0,
+        60,
+        30
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@button.text",
+        "value": "按钮"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@button.text.color",
+        "value": "rgb(255,255,255)"
+      },
+      "rect": [
+        0,
+        0,
+        60,
+        30
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgba(255,255,255,0.4)",
+      "borderColor": "#979797",
+      "cornerRadius": 1,
+      "visible": {
+        "func": "__ht__function(data, view) {\nreturn data && data.a('button.disabled');\n}",
+        "value": true
+      },
+      "rect": [
+        0,
+        0,
+        60,
+        30
+      ]
+    }
+  ]
+}

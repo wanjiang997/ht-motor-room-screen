@@ -1,0 +1,47 @@
+{
+  "modified": "Tue Dec 18 2018 20:35:38 GMT+0800 (中国标准时间)",
+  "width": 355,
+  "height": 300,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(1,17,74,0.70)",
+      "borderWidth": 2,
+      "borderColor": "rgb(0,157,219)",
+      "gradientColor": null,
+      "rect": [
+        5.61766,
+        5.99001,
+        344.06279,
+        288.61002
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(0,154,219)",
+      "points": [
+        12.67247,
+        1.81004,
+        1.68759,
+        1.81004,
+        1.68759,
+        13.04227
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(0,154,219)",
+      "rotation": 3.14159,
+      "points": [
+        353.5952,
+        287.09307,
+        342.61031,
+        287.09307,
+        342.61031,
+        298.32529
+      ]
+    }
+  ]
+}

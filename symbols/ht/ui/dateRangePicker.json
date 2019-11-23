@@ -1,0 +1,181 @@
+{
+  "modified": "Fri Mar 29 2019 12:08:11 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "ht.name",
+      "valueType": "String",
+      "name": "UIFormItemName"
+    },
+    {
+      "attr": "ht.value",
+      "valueType": "String",
+      "name": "UIFormItemValue"
+    },
+    {
+      "attr": "ht.placeholder",
+      "valueType": "String",
+      "name": "UIPlaceHolder"
+    },
+    {
+      "attr": "ht.disabled",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UIDisabled"
+    },
+    {
+      "attr": "ht.format",
+      "valueType": "String",
+      "defaultValue": "YYYY-MM-DD",
+      "name": "UIFormat"
+    },
+    {
+      "attr": "ht.dateType",
+      "valueType": "String",
+      "defaultValue": "date",
+      "name": "UIDateType",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "date",
+            "datetime",
+            "month"
+          ]
+        }
+      }
+    },
+    {
+      "attr": "ht.textColor",
+      "valueType": "Color",
+      "name": "UITextColor"
+    },
+    {
+      "attr": "ht.font",
+      "valueType": "Font",
+      "name": "UIFont"
+    },
+    {
+      "attr": "ht.padding",
+      "valueType": "String",
+      "name": "UIPadding"
+    },
+    {
+      "attr": "ht.borderRadius",
+      "valueType": "String",
+      "name": "UIBorderRadius"
+    },
+    {
+      "attr": "ht.borderColor",
+      "valueType": "Color",
+      "name": "UIBorderColor"
+    },
+    {
+      "attr": "ht.focusBorderColor",
+      "valueType": "Color",
+      "name": "UIFocusBorderColor"
+    },
+    {
+      "attr": "ht.borderWidth",
+      "valueType": "PositiveNumber",
+      "name": "UIBorderWidth"
+    },
+    {
+      "attr": "ht.background",
+      "valueType": "Color",
+      "name": "UIBackground"
+    },
+    {
+      "attr": "ht.focusBackground",
+      "valueType": "Color",
+      "name": "UIFocusBackground"
+    },
+    {
+      "attr": "ht.onChange",
+      "valueType": "Function",
+      "name": "UIOnChange",
+      "extraInfo": {
+        "arguments": [
+          "oldValue",
+          "newValue",
+          "data",
+          "view"
+        ]
+      }
+    },
+    {
+      "attr": "ht.dropDownConfig",
+      "valueType": "Object"
+    }
+  ],
+  "snapshotURL": "symbols/ht/snapshot/dateTimePicker.json",
+  "width": 160,
+  "height": 32,
+  "fitSize": true,
+  "interactive": true,
+  "disableSelectedBorder": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/ht/ui/comboBox.json",
+      "displayName": "comboBox",
+      "rect": [
+        0,
+        0,
+        160,
+        32
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.dateRangePickerInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.dateRangePickerInteractor.onUp.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.dateTimePickerInteractor.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.dateTimePickerInteractor.onLeave.apply(this, arguments);\n}",
+      "value": {
+        "func": "attr@ht.value"
+      },
+      "placeholder": {
+        "func": "attr@ht.placeholder"
+      },
+      "disabled": {
+        "func": "attr@ht.disabled"
+      },
+      "borderWidth": {
+        "func": "attr@ht.borderWidth",
+        "value": 1
+      },
+      "borderColor": {
+        "func": "attr@ht.borderColor",
+        "value": "#737373"
+      },
+      "focusBorderColor": {
+        "func": "attr@ht.focusBorderColor",
+        "value": "rgb(51,153,255)"
+      },
+      "borderRadius": {
+        "func": "attr@ht.borderRadius",
+        "value": "0"
+      },
+      "padding": {
+        "func": "attr@ht.padding",
+        "value": "8"
+      },
+      "background": {
+        "func": "attr@ht.background"
+      },
+      "focusBackground": {
+        "func": "attr@ht.focusBackground"
+      },
+      "font": {
+        "func": "attr@ht.font",
+        "value": "12px arial, sans-serif"
+      },
+      "textColor": {
+        "func": "attr@ht.textColor",
+        "value": "#737373"
+      },
+      "dropDownIcon": "ht.vector.date",
+      "drawUnMatchValue": true,
+      "onChange": {
+        "func": "attr@ht.onChange"
+      }
+    }
+  ]
+}

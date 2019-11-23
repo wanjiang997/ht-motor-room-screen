@@ -1,0 +1,94 @@
+{
+  "modified": "Fri Mar 22 2019 17:37:50 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "ht.content",
+      "valueType": "String",
+      "name": "editor.content"
+    },
+    {
+      "attr": "ht.font",
+      "valueType": "Font",
+      "name": "UIFont"
+    },
+    {
+      "attr": "ht.vAlign",
+      "valueType": "VAlign",
+      "name": "editor.valuetype.valign"
+    },
+    {
+      "attr": "ht.color",
+      "valueType": "Color",
+      "name": "editor.color"
+    },
+    {
+      "attr": "ht.background",
+      "valueType": "Color",
+      "name": "UIBackground"
+    },
+    {
+      "attr": "ht.padding",
+      "valueType": "String",
+      "name": "UIPadding"
+    },
+    {
+      "attr": "ht.borderWidth",
+      "valueType": "PositiveNumber",
+      "name": "UIBorderWidth"
+    },
+    {
+      "attr": "ht.borderColor",
+      "valueType": "Color",
+      "name": "UIBorderColor"
+    }
+  ],
+  "width": 100,
+  "height": 30,
+  "boundExtend": 5,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "components/ht/text/textEllipsis.json",
+      "displayName": "textEllipsis",
+      "rect": [
+        0,
+        0,
+        100,
+        30
+      ],
+      "content": {
+        "func": "attr@ht.content",
+        "value": "HT Vector HT Vector"
+      },
+      "font": {
+        "func": "attr@ht.font",
+        "value": "14px sans-serif, Arial"
+      },
+      "vAlign": {
+        "func": "attr@ht.vAlign",
+        "value": "middle"
+      },
+      "color": {
+        "func": "attr@ht.color",
+        "value": "rgb(0,0,0)"
+      },
+      "background": {
+        "func": "attr@ht.background",
+        "value": null
+      },
+      "padding": {
+        "func": "attr@ht.padding",
+        "value": "0"
+      },
+      "borderWidth": {
+        "func": "attr@ht.borderWidth",
+        "value": 1
+      },
+      "borderColor": {
+        "func": "attr@ht.borderColor",
+        "value": "rgb(51,153,255)"
+      },
+      "borderRadius": "5"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "background": "rgb(189,189,189)",
+  "width": 220,
+  "height": 50,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "rgba(0,0,0,0.30)",
+      "shadowBlur": 8,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 4,
+      "points": [
+        5.81471,
+        4.75731,
+        214.18529,
+        4.75731,
+        214.18529,
+        32.3983,
+        116.79487,
+        32.3983,
+        109.72767,
+        39.24159,
+        102.2885,
+        32.3983,
+        5.81471,
+        32.3983,
+        5.81471,
+        4.75731
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "shadowColor": "rgba(0,0,0,0.30)",
+      "shadowBlur": 8,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 4,
+      "closePath": true,
+      "points": [
+        5.81471,
+        4.75731,
+        214.18529,
+        4.75731,
+        214.18529,
+        32.3983,
+        116.79487,
+        32.3983,
+        109.72767,
+        39.24159,
+        102.2885,
+        32.3983,
+        5.81471,
+        32.3983,
+        5.81471,
+        4.75731
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(235,235,235)",
+      "borderColor": "#979797",
+      "gradient": "linear.north",
+      "gradientColor": "rgb(247,247,247)",
+      "shadowColor": "rgba(0,0,0,0.30)",
+      "shadowBlur": 8,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 4,
+      "points": [
+        5.81471,
+        4.75731,
+        214.18529,
+        4.75731,
+        214.18529,
+        32.3983,
+        116.79487,
+        32.3983,
+        109.72767,
+        39.24159,
+        102.2885,
+        32.3983,
+        5.81471,
+        32.3983,
+        5.81471,
+        4.75731
+      ]
+    }
+  ]
+}

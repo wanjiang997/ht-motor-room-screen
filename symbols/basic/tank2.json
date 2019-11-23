@@ -1,0 +1,159 @@
+{
+  "modified": "Fri Nov 09 2018 01:56:00 GMT+0800 (China Standard Time)",
+  "background": "rgb(68,73,92)",
+  "dataBindings": [
+    {
+      "attr": "borderColor",
+      "valueType": "Color",
+      "name": "外壳颜色"
+    },
+    {
+      "attr": "inColor",
+      "valueType": "Color",
+      "name": "内部颜色"
+    },
+    {
+      "attr": "instrumentColor",
+      "valueType": "Color",
+      "name": "仪表颜色"
+    },
+    {
+      "attr": "liquidColor",
+      "valueType": "Color",
+      "name": "液体颜色"
+    },
+    {
+      "attr": "100",
+      "valueType": "PositiveNumber",
+      "name": "最大值"
+    },
+    {
+      "attr": "min",
+      "valueType": "PositiveNumber",
+      "name": "最小值"
+    },
+    {
+      "attr": "num",
+      "valueType": "PositiveNumber",
+      "name": "数值"
+    },
+    {
+      "attr": "text",
+      "valueType": "String",
+      "name": "说明文字"
+    },
+    {
+      "attr": "hasText",
+      "valueType": "Boolean",
+      "name": "是否有说明文字"
+    },
+    {
+      "attr": "textColor",
+      "valueType": "Color",
+      "name": "说明文字颜色"
+    },
+    {
+      "attr": "hasNum",
+      "valueType": "Boolean",
+      "name": "显示数字/百分比"
+    },
+    {
+      "attr": "isNum",
+      "valueType": "Boolean",
+      "name": "数字"
+    },
+    {
+      "attr": "percentageSymbol",
+      "valueType": "Boolean",
+      "name": "百分比带%"
+    },
+    {
+      "attr": "numColor",
+      "valueType": "Color",
+      "name": "数字颜色"
+    },
+    {
+      "attr": "contrastColor",
+      "valueType": "Color",
+      "name": "对比颜色"
+    }
+  ],
+  "width": 55,
+  "height": 100,
+  "comps": [
+    {
+      "type": "components/monitor/tank.json",
+      "displayName": "tank",
+      "rect": [
+        0,
+        0,
+        55,
+        100
+      ],
+      "borderColor": {
+        "func": "attr@borderColor",
+        "value": "rgb(138,131,131)"
+      },
+      "inColor": {
+        "func": "attr@inColor",
+        "value": "rgb(89,81,81)"
+      },
+      "instrumentColor": {
+        "func": "attr@instrumentColor",
+        "value": "rgb(245,163,0)"
+      },
+      "liquidColor": {
+        "func": "attr@liquidColor",
+        "value": "rgb(0,255,200)"
+      },
+      "max": {
+        "func": "attr@100",
+        "value": 100
+      },
+      "min": {
+        "func": "attr@min",
+        "value": 0
+      },
+      "num": {
+        "func": "attr@num",
+        "value": 48
+      },
+      "text": {
+        "func": "attr@text",
+        "value": "贮箱"
+      },
+      "hasText": {
+        "func": "attr@hasText",
+        "value": true
+      },
+      "textColor": {
+        "func": "attr@textColor",
+        "value": "rgb(255,255,255)"
+      },
+      "hasNum": {
+        "func": "attr@hasNum",
+        "value": true
+      },
+      "isNum": {
+        "func": "attr@isNum",
+        "value": false
+      },
+      "percentageSymbol": {
+        "func": "attr@percentageSymbol",
+        "value": true
+      },
+      "numColor": {
+        "func": "attr@numColor",
+        "value": "rgb(0,255,200)"
+      },
+      "hasContrast": {
+        "func": "attr@numColor",
+        "value": true
+      },
+      "contrastColor": {
+        "func": "attr@contrastColor",
+        "value": "rgb(255,255,255)"
+      }
+    }
+  ]
+}

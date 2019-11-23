@@ -1,0 +1,68 @@
+{
+  "modified": "Mon Jan 28 2019 11:21:25 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "progressPercentage",
+      "valueType": "NumberArray",
+      "name": "进度条进度"
+    },
+    {
+      "attr": "progressColor",
+      "valueType": "ColorArray",
+      "name": "进度条颜色"
+    },
+    {
+      "attr": "blankCirclePercent",
+      "valueType": "Percentage",
+      "name": "空白圆占比"
+    }
+  ],
+  "width": 100,
+  "height": 100,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/chart/radialBarChart.json",
+      "displayName": "radialBarChart",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/demo/icon/云.json",
+      "displayName": "云",
+      "rect": [
+        46,
+        1,
+        8,
+        8
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/demo/icon/晴.json",
+      "displayName": "晴",
+      "rect": [
+        46,
+        12,
+        8,
+        8
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/demo/icon/雨.json",
+      "displayName": "雨",
+      "rect": [
+        46,
+        24,
+        8,
+        8
+      ]
+    }
+  ]
+}

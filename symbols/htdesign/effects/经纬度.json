@@ -1,0 +1,141 @@
+{
+  "modified": "Tue Dec 18 2018 15:13:35 GMT+0800 (中国标准时间)",
+  "background": "rgb(61,61,61)",
+  "width": 512,
+  "height": 512,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "arc",
+      "borderWidth": 15,
+      "borderColor": "rgba(51,153,255,0.20)",
+      "borderPattern": [
+        2,
+        16
+      ],
+      "arcFrom": 2.9147,
+      "arcTo": 5.39307,
+      "arcClose": false,
+      "shadow": true,
+      "shadowColor": "#32D3EB",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 1.5708,
+      "rect": [
+        8.9791,
+        8.9791,
+        494.04179,
+        494.04179
+      ]
+    },
+    {
+      "type": "arc",
+      "borderWidth": 6,
+      "borderColor": "rgba(51,153,255,0.20)",
+      "borderPattern": [
+        2,
+        4
+      ],
+      "arcFrom": 2.40855,
+      "arcTo": 7.81908,
+      "arcClose": false,
+      "shadow": true,
+      "shadowColor": "#32D3EB",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 1.49406,
+      "rect": [
+        8.9791,
+        8.9791,
+        494.04179,
+        494.04179
+      ]
+    },
+    {
+      "type": "arc",
+      "borderWidth": 2,
+      "borderColor": "rgba(51,153,255,0.20)",
+      "arcFrom": 7.97615,
+      "arcTo": 11.10029,
+      "arcClose": false,
+      "shadow": true,
+      "shadowColor": "#32D3EB",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 1.5708,
+      "rect": [
+        8.9791,
+        8.9791,
+        494.04179,
+        494.04179
+      ]
+    },
+    {
+      "type": "oval",
+      "borderWidth": 1,
+      "borderColor": "#07ead3",
+      "shadow": true,
+      "shadowColor": "#07ead3",
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 3.14159,
+      "rect": [
+        3.58892,
+        246.15331,
+        15.47915,
+        19.69339
+      ]
+    },
+    {
+      "type": "triangle",
+      "background": "#07ead3",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "#32D3EB",
+      "shadowBlur": 32,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 1.5708,
+      "rect": [
+        30.85211,
+        248.55558,
+        14.88884,
+        14.88884
+      ]
+    },
+    {
+      "type": "triangle",
+      "background": "#07ead3",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "#32D3EB",
+      "shadowBlur": 32,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 4.71239,
+      "rect": [
+        499.26786,
+        248.55558,
+        7.50607,
+        14.88884
+      ]
+    },
+    {
+      "type": "triangle",
+      "background": "#07ead3",
+      "borderColor": "#979797",
+      "shadow": true,
+      "shadowColor": "#32D3EB",
+      "shadowBlur": 32,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rotation": 3.14159,
+      "rect": [
+        252.24696,
+        1.53468,
+        7.50607,
+        14.88884
+      ]
+    }
+  ]
+}

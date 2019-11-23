@@ -1,0 +1,90 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/机房/摄像头方.obj",
+  "mtl": "assets/objs/机房/摄像头方.mtl",
+  "image": "symbols/机房/摄像头方.json",
+  "alarms": [
+    {
+      "name": "温度告警",
+      "property": "temperature",
+      "type": "number",
+      "items": [
+        {
+          "min": 0,
+          "max": 20,
+          "value": 0,
+          "severity": 0,
+          "icon": "symbols/交通/告警符号/技术待机.json",
+          "action": 0
+        },
+        {
+          "min": 20,
+          "max": 30,
+          "value": 0,
+          "severity": 1,
+          "icon": "symbols/交通/告警符号/技术待机.json",
+          "action": 1
+        },
+        {
+          "min": 30,
+          "max": 40,
+          "value": 0,
+          "severity": 2,
+          "icon": "symbols/交通/告警符号/技术待机.json",
+          "action": 2
+        },
+        {
+          "min": 40,
+          "max": 50,
+          "value": 0,
+          "severity": 3,
+          "icon": "symbols/交通/告警符号/技术待机.json",
+          "action": 3
+        },
+        {
+          "min": 50,
+          "max": 100,
+          "value": 0,
+          "severity": 4,
+          "icon": "symbols/交通/告警符号/技术待机.json",
+          "action": 5
+        }
+      ]
+    },
+    {
+      "name": "压力告警",
+      "property": "pressure",
+      "type": "string",
+      "items": [
+        {
+          "min": 0,
+          "max": 100,
+          "value": "low",
+          "severity": 4,
+          "color": "#4990E2",
+          "icon": "symbols/交通/告警符号/电力供电.json",
+          "action": 1
+        },
+        {
+          "min": 0,
+          "max": 100,
+          "value": "normal",
+          "severity": 1,
+          "color": "#7ED321",
+          "icon": "symbols/交通/告警符号/电力供电.json",
+          "action": 4
+        },
+        {
+          "min": 0,
+          "max": 100,
+          "value": "high",
+          "severity": 2,
+          "color": "red",
+          "icon": "symbols/交通/告警符号/电力供电.json",
+          "action": 3
+        }
+      ]
+    }
+  ],
+  "hx.associateObject": "摄像机"
+}

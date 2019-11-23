@@ -1,0 +1,182 @@
+{
+  "modified": "Mon Jan 28 2019 19:18:50 GMT+0800 (中国标准时间)",
+  "width": 600,
+  "height": 300,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/ht/chart/pie.json",
+      "displayName": "pie",
+      "rect": [
+        0,
+        0,
+        300,
+        300
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onMove.apply(this, arguments);\n}",
+      "pieData": [
+        {
+          "name": "视频广告",
+          "value": 100,
+          "itemStyle": {
+            "borderWidth": 1,
+            "color": {
+              "type": "linear",
+              "colorStops": [
+                {
+                  "offset": 0,
+                  "color": "blue"
+                },
+                {
+                  "offset": 1,
+                  "color": "red"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "搜索引擎",
+          "value": 120
+        },
+        {
+          "name": "邮件营销",
+          "value": 80,
+          "itemStyle": {
+            "borderWidth": 1,
+            "borderColor": "red",
+            "borderType": "dashed"
+          }
+        },
+        {
+          "name": "联盟广告",
+          "value": 120
+        }
+      ],
+      "radius": [
+        "0",
+        "25%"
+      ],
+      "labelLine": {
+        "normal": {
+          "show": true
+        },
+        "emphasis": {
+          "show": true,
+          "length2": 15,
+          "width": 2
+        }
+      },
+      "label": {
+        "normal": {
+          "show": true,
+          "position": "inside",
+          "formatter": "{a}\n{b}\npct:{d}",
+          "color": "white"
+        },
+        "emphasis": {
+          "show": true,
+          "position": "inside",
+          "formatter": "{a}\n{b}\npct:{d}",
+          "color": "red"
+        }
+      },
+      "seriesName": "访问来源"
+    },
+    {
+      "type": "components/ht/chart/pie.json",
+      "displayName": "pie",
+      "rect": [
+        300,
+        0,
+        300,
+        300
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onMove.apply(this, arguments);\n}",
+      "pieData": [
+        {
+          "name": "视频广告",
+          "value": 50,
+          "itemStyle": {
+            "borderWidth": 1,
+            "borderColor": "red",
+            "borderType": "dashed"
+          }
+        },
+        {
+          "name": "搜索引擎",
+          "value": 40,
+          "itemStyle": {
+            "color": {
+              "type": "radial",
+              "colorStops": [
+                {
+                  "offset": 0,
+                  "color": "blue"
+                },
+                {
+                  "offset": 1,
+                  "color": "pink"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "邮件营销",
+          "value": 80,
+          "itemStyle": {
+            "borderWidth": 1,
+            "borderColor": "yellow",
+            "borderType": "solid",
+            "color": {
+              "type": "linear",
+              "colorStops": [
+                {
+                  "offset": 0,
+                  "color": "blue"
+                },
+                {
+                  "offset": 1,
+                  "color": "yellow"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "联盟广告",
+          "value": 30
+        }
+      ],
+      "radius": [
+        "5",
+        "25%"
+      ],
+      "labelLine": {
+        "normal": {
+          "show": true
+        },
+        "emphasis": {
+          "show": true,
+          "length2": 15,
+          "width": 2
+        }
+      },
+      "roseType": true,
+      "label": {
+        "normal": {
+          "show": false
+        },
+        "emphasis": {
+          "show": false
+        }
+      },
+      "seriesName": "访问来源"
+    }
+  ]
+}

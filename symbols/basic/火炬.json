@@ -1,0 +1,30 @@
+{
+  "background": "rgb(0,0,0)",
+  "width": 24,
+  "height": 92,
+  "comps": [
+    {
+      "type": "trapezoid",
+      "background": "rgb(20,14,14)",
+      "borderColor": "#979797",
+      "gradient": "spread.horizontal",
+      "rect": [
+        2.67709,
+        24.494,
+        19.87993,
+        66.03774
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/basic/火焰.json",
+      "displayName": "火焰",
+      "rect": [
+        4.11706,
+        6.71506,
+        17,
+        20.28494
+      ]
+    }
+  ]
+}

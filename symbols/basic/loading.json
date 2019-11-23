@@ -1,0 +1,194 @@
+{
+  "background": "rgb(255,255,255)",
+  "dataBindings": [
+    {
+      "attr": "barBackgroundColor",
+      "valueType": "Color",
+      "name": "进度条背景色"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "Color",
+      "name": "边框颜色"
+    },
+    {
+      "attr": "barMax",
+      "valueType": "Int",
+      "name": "最大值"
+    },
+    {
+      "attr": "barMin",
+      "valueType": "Int",
+      "name": "最小值"
+    },
+    {
+      "attr": "barNum",
+      "valueType": "Int",
+      "name": "数值"
+    },
+    {
+      "attr": "barColor",
+      "valueType": "Color",
+      "name": "进度条颜色"
+    },
+    {
+      "attr": "text",
+      "valueType": "String",
+      "name": "文字说明"
+    },
+    {
+      "attr": "textColor",
+      "valueType": "Color",
+      "name": "文字颜色",
+      "defaultValue": "#AFC8FC"
+    },
+    {
+      "attr": "hasText",
+      "valueType": "Boolean",
+      "name": "是否显示文字说明"
+    },
+    {
+      "attr": "numColor",
+      "valueType": "Color",
+      "name": "百分比/数值颜色",
+      "defaultValue": "#AFC8FC"
+    },
+    {
+      "attr": "hasNum",
+      "valueType": "Boolean",
+      "name": "是否显示数值/百分比"
+    },
+    {
+      "attr": "hasMaxMin",
+      "valueType": "Boolean",
+      "name": "是否显示最值"
+    },
+    {
+      "attr": "maxColor",
+      "valueType": "Color",
+      "name": "最大值颜色",
+      "defaultValue": "#AFC8FC"
+    },
+    {
+      "attr": "minColor",
+      "valueType": "Color",
+      "name": "最小值颜色",
+      "defaultValue": "#AFC8FC"
+    },
+    {
+      "attr": "isNum",
+      "valueType": "Boolean",
+      "name": "显示的是数值"
+    },
+    {
+      "attr": "percentageSymbol",
+      "valueType": "Boolean",
+      "name": "百分比是否显示%"
+    },
+    {
+      "attr": "accurate",
+      "valueType": "Int",
+      "name": "百分比精确到"
+    },
+    {
+      "attr": "centerTextSwap",
+      "valueType": "Boolean",
+      "name": "中间文字交换"
+    },
+    {
+      "attr": "endsSwap",
+      "valueType": "Boolean",
+      "name": "两端文字位置"
+    }
+  ],
+  "width": 100,
+  "height": 28,
+  "comps": [
+    {
+      "type": "components/progressBar/loading.json",
+      "displayName": "progressBar",
+      "rect": [
+        0,
+        0,
+        100,
+        28.03526
+      ],
+      "barBackgroundColor": {
+        "func": "attr@barBackgroundColor",
+        "value": "rgb(93,93,93)"
+      },
+      "borderColor": {
+        "func": "attr@borderColor",
+        "value": "rgb(0,0,0)"
+      },
+      "barMax": {
+        "func": "attr@barMax",
+        "value": 100
+      },
+      "barMin": {
+        "func": "attr@barMin",
+        "value": 0
+      },
+      "barNum": {
+        "func": "attr@barNum",
+        "value": 20
+      },
+      "barColor": {
+        "func": "attr@barColor",
+        "value": "rgb(183,244,255)"
+      },
+      "text": {
+        "func": "attr@text",
+        "value": "LOADING..."
+      },
+      "textColor": {
+        "func": "attr@textColor",
+        "value": "rgb(0,0,0)"
+      },
+      "hasText": {
+        "func": "attr@hasText",
+        "value": true
+      },
+      "numColor": {
+        "func": "attr@numColor",
+        "value": "rgb(0,0,0)"
+      },
+      "hasNum": {
+        "func": "attr@hasNum",
+        "value": true
+      },
+      "hasMaxMin": {
+        "func": "attr@hasMaxMin",
+        "value": true
+      },
+      "maxColor": {
+        "func": "attr@maxColor",
+        "value": "rgb(0,0,0)"
+      },
+      "minColor": {
+        "func": "attr@minColor",
+        "value": "rgb(0,0,0)"
+      },
+      "isNum": {
+        "func": "attr@isNum",
+        "value": false
+      },
+      "percentageSymbol": {
+        "func": "attr@percentageSymbol",
+        "value": true
+      },
+      "accurate": {
+        "func": "attr@accurate",
+        "value": 1
+      },
+      "centerTextSwap": {
+        "func": "attr@centerTextSwap",
+        "value": false
+      },
+      "endsSwap": {
+        "func": "attr@endsSwap",
+        "value": true
+      }
+    }
+  ]
+}

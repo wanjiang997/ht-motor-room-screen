@@ -1,0 +1,33 @@
+{
+  "dataBindings": [
+    {
+      "attr": "aaa",
+      "valueType": "Int"
+    }
+  ],
+  "width": {
+    "func": "attr@cuswidth",
+    "value": 100
+  },
+  "height": {
+    "func": "attr@cusheight",
+    "value": 100
+  },
+  "comps": [
+    {
+      "type": "oval",
+      "background": {
+        "func": "__ht__function(data, view) {\nif(data.a('aaa')==1){\nreturn 'red';\n}else{\nreturn 'green';\n}\n}",
+        "value": "rgb(119,195,43)"
+      },
+      "borderWidth": 1,
+      "borderColor": "rgb(247,247,247)",
+      "rect": [
+        0.5,
+        0.5,
+        99,
+        99
+      ]
+    }
+  ]
+}

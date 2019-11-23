@@ -1,0 +1,452 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": "host"
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 1855,
+      "p": {
+        "position": {
+          "x": 417.98615,
+          "y": 523.85298
+        },
+        "width": 1986.07271,
+        "height": 1080
+      },
+      "s": {
+        "pixelPerfect": false,
+        "shape.background": null,
+        "shape": "rect",
+        "fullscreen": "fill",
+        "fullscreen.lock": "h",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1856,
+      "p": {
+        "displayName": "top",
+        "parent": {
+          "__i": 1855
+        },
+        "position": {
+          "x": 417.39418,
+          "y": 81.29994
+        },
+        "width": 1978.50998,
+        "height": 86.96374
+      },
+      "s": {
+        "layout.h": "scale",
+        "layout.v": "scale",
+        "2d.selectable": false,
+        "fullscreen.lock": "h",
+        "fullscreen.gap": 1,
+        "2d.movable": false,
+        "2d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1857,
+      "p": {
+        "displayName": "right",
+        "parent": {
+          "__i": 1856
+        },
+        "image": "assets/贴图/images/right.png",
+        "position": {
+          "x": 1093.55215,
+          "y": 67.33835
+        },
+        "width": 626.19403,
+        "height": 53.79548
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1858,
+      "p": {
+        "displayName": "center",
+        "parent": {
+          "__i": 1856
+        },
+        "image": "assets/贴图/images/center.png",
+        "position": {
+          "x": 428.67306,
+          "y": 68.70117
+        },
+        "width": 733.84974,
+        "height": 61.76621
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1859,
+      "p": {
+        "displayName": "left",
+        "parent": {
+          "__i": 1856
+        },
+        "image": "assets/贴图/images/left.png",
+        "position": {
+          "x": -246.45213,
+          "y": 68.27688
+        },
+        "width": 650.81737,
+        "height": 54.01809
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1860,
+      "p": {
+        "displayName": "ling",
+        "parent": {
+          "__i": 1856
+        },
+        "image": "assets/贴图/images/ling.png",
+        "position": {
+          "x": -259.77513,
+          "y": 92.03016
+        },
+        "width": 211.28158,
+        "height": 1.65446
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1861,
+      "p": {
+        "displayName": "ling",
+        "parent": {
+          "__i": 1856
+        },
+        "image": "assets/贴图/images/ling.png",
+        "position": {
+          "x": 427.63253,
+          "y": 97.49186
+        },
+        "width": 116.26856,
+        "height": 1.65446
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1862,
+      "p": {
+        "displayName": "ling",
+        "parent": {
+          "__i": 1856
+        },
+        "image": "assets/贴图/images/ling.png",
+        "position": {
+          "x": 429.30892,
+          "y": 42.35326
+        },
+        "width": 234.18957,
+        "height": 1.65446
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1863,
+      "p": {
+        "displayName": "ling",
+        "parent": {
+          "__i": 1856
+        },
+        "image": "assets/贴图/images/ling.png",
+        "position": {
+          "x": 1099.49502,
+          "y": 89.77109
+        },
+        "width": 200,
+        "height": 1.65446
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1864,
+      "p": {
+        "displayName": "menu_1",
+        "parent": {
+          "__i": 1856
+        },
+        "image": "assets/贴图/images/menu_1.png",
+        "position": {
+          "x": 417.39417,
+          "y": 85.85753
+        },
+        "width": 1978.50997,
+        "height": 77.84856
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "2d.visible": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1865,
+      "p": {
+        "parent": {
+          "__i": 1856
+        },
+        "tag": "dataTime",
+        "position": {
+          "x": -384.81488,
+          "y": 68.72456
+        },
+        "width": 214.56583,
+        "height": 20.89999
+      },
+      "s": {
+        "text": "2019年06月13日  15:00:00",
+        "text.color": "rgb(46,240,227)",
+        "text.font": "15px arial, sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1866,
+      "p": {
+        "parent": {
+          "__i": 1856
+        },
+        "tag": "weakDay",
+        "position": {
+          "x": -247.57761,
+          "y": 68.60108
+        },
+        "width": 111.13832,
+        "height": 16.88535
+      },
+      "s": {
+        "text": "星期四",
+        "text.color": "rgb(46,240,227)",
+        "text.font": "15px arial, sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1867,
+      "p": {
+        "parent": {
+          "__i": 1856
+        },
+        "position": {
+          "x": 429.1649,
+          "y": 72.26215
+        },
+        "width": 440.11713,
+        "height": 66.85975
+      },
+      "s": {
+        "text": "中国卫通运营监测平台",
+        "text.color": "rgb(247,247,247)",
+        "text.font": "30px arial, sans-serif",
+        "text.align": "center",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1868,
+      "p": {
+        "displayName": "u2123",
+        "parent": {
+          "__i": 1856
+        },
+        "image": "assets/贴图/images/u2123.png",
+        "position": {
+          "x": 255.78058,
+          "y": 70.77209
+        },
+        "width": 40.43022,
+        "height": 35.89832
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1869,
+      "p": {
+        "parent": {
+          "__i": 1856
+        },
+        "tag": "motorRoomName",
+        "position": {
+          "x": 1213.2547,
+          "y": 66.14426
+        },
+        "width": 177.52353,
+        "height": 34.12633
+      },
+      "s": {
+        "text": "北京数据中心机房",
+        "text.color": "rgb(247,247,247)",
+        "text.font": "15px arial, sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1870,
+      "p": {
+        "displayName": "fixed_img",
+        "parent": {
+          "__i": 1856
+        },
+        "image": "assets/贴图/images/fixed_img.png",
+        "position": {
+          "x": 1112.69264,
+          "y": 65.59935
+        },
+        "width": 31.6006,
+        "height": 37.20662
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1871,
+      "p": {
+        "parent": {
+          "__i": 1856
+        },
+        "tag": "resetBtn",
+        "image": "symbols/ht/ui/button.json",
+        "rotation": 0.01745,
+        "position": {
+          "x": 1315.71006,
+          "y": 68.00156
+        },
+        "width": 40.73212,
+        "height": 25.68916
+      },
+      "s": {
+        "opacity": 1,
+        "2d.movable": false,
+        "2d.editable": false
+      },
+      "a": {
+        "ht.borderRadius": "5",
+        "ht.borderWidth": 1,
+        "ht.borderColor": "rgb(30,179,169)"
+      }
+    },
+    {
+      "c": "ht.Group",
+      "i": 1872,
+      "p": {
+        "parent": {
+          "__i": 1855
+        },
+        "image": "symbols/basic/group.json",
+        "position": {
+          "x": -338.43156,
+          "y": 327.01572
+        },
+        "width": 168.44118,
+        "height": 109.97399,
+        "expanded": true
+      },
+      "s": {
+        "group.background": null,
+        "2d.selectable": false,
+        "2d.movable": false,
+        "group.border.radius": 5,
+        "group.border.width": 0,
+        "shape.foreground": "rgb(29,240,205)",
+        "shape.foreground.gradient": "linear.east",
+        "shape.foreground.gradient.color": "#32D3EB",
+        "group.image.stretch": "uniform",
+        "image.stretch": "centerUniform"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1873,
+      "p": {
+        "displayName": "面板",
+        "parent": {
+          "__i": 1872
+        },
+        "tag": "dataInfo",
+        "image": "symbols/basic/面板.json",
+        "position": {
+          "x": -338.43156,
+          "y": 327.01572
+        },
+        "width": 433.20661,
+        "height": 506.36078
+      },
+      "s": {
+        "image.stretch": "uniform",
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    }
+  ],
+  "modified": "Wed Jun 26 2019 09:58:19 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -585.53979,
+    "y": -18.91728,
+    "width": 1999.33255,
+    "height": 1085.54052
+  }
+}

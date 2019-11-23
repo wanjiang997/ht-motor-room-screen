@@ -1,0 +1,245 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null
+  },
+  "d": [
+    {
+      "c": "ht.Block",
+      "i": 7708,
+      "p": {
+        "displayName": "块",
+        "position": {
+          "x": 417.39417,
+          "y": 44.51707
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0
+        },
+        "width": 1978.50997,
+        "height": 97.63253,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "fullscreen": "uniform",
+        "fullscreen.lock": "h",
+        "label.background": null
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7709,
+      "p": {
+        "displayName": "titileImg",
+        "parent": {
+          "__i": 7708
+        },
+        "image": "assets/贴图/titileImg.png",
+        "position": {
+          "x": 417.39417,
+          "y": 92.1492
+        },
+        "width": 1978.50997,
+        "height": 95.26425
+      },
+      "s": {
+        "2d.visible": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7717,
+      "p": {
+        "displayName": "menu_1",
+        "parent": {
+          "__i": 7708
+        },
+        "image": "assets/贴图/images/menu_1.png",
+        "position": {
+          "x": 417.39417,
+          "y": 94.19778
+        },
+        "width": 1978.50997,
+        "height": 95.90365
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7710,
+      "p": {
+        "displayName": "menu_2",
+        "parent": {
+          "__i": 7708
+        },
+        "image": "assets/贴图/images/menu_2.png",
+        "position": {
+          "x": 417.39417,
+          "y": 94.94725
+        },
+        "width": 1978.50997,
+        "height": 94.4047
+      },
+      "s": {
+        "2d.visible": false,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 7711,
+      "p": {
+        "parent": {
+          "__i": 7708
+        },
+        "tag": "dataTime",
+        "position": {
+          "x": -425.81488,
+          "y": 78.09485
+        },
+        "width": 214.56583,
+        "height": 28.1087
+      },
+      "s": {
+        "text": "2019年06月13日  15:00:00",
+        "text.color": "rgb(46,240,227)",
+        "text.font": "18px arial, sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 7712,
+      "p": {
+        "parent": {
+          "__i": 7708
+        },
+        "tag": "weakDay",
+        "position": {
+          "x": -242.57761,
+          "y": 79.08179
+        },
+        "width": 111.13832,
+        "height": 26.13482
+      },
+      "s": {
+        "text": "星期四",
+        "text.color": "rgb(46,240,227)",
+        "text.font": "18px arial, sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 7713,
+      "p": {
+        "parent": {
+          "__i": 7708
+        },
+        "position": {
+          "x": 453.1649,
+          "y": 96.32339
+        },
+        "width": 440.11713,
+        "height": 60.61803
+      },
+      "s": {
+        "text": "中国卫通运营监测平台",
+        "text.color": "rgb(247,247,247)",
+        "text.font": "40px arial, sans-serif",
+        "text.align": "center",
+        "2d.selectable": false,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7714,
+      "p": {
+        "displayName": "u2123",
+        "parent": {
+          "__i": 7708
+        },
+        "image": "assets/贴图/images/u2123.png",
+        "position": {
+          "x": 224.00611,
+          "y": 94.98095
+        },
+        "width": 48.34397,
+        "height": 40.39259
+      },
+      "s": {
+        "2d.selectable": false,
+        "2d.movable": false,
+        "select.width": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 7715,
+      "p": {
+        "parent": {
+          "__i": 7708
+        },
+        "tag": "motorRoomName",
+        "position": {
+          "x": 1295.2547,
+          "y": 79.51072
+        },
+        "width": 177.52353,
+        "height": 30.94045
+      },
+      "s": {
+        "text": "北京数据中心机房",
+        "text.color": "rgb(247,247,247)",
+        "text.font": "18px arial, sans-serif",
+        "2d.selectable": false,
+        "2d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7716,
+      "p": {
+        "displayName": "fixed_img",
+        "parent": {
+          "__i": 7708
+        },
+        "image": "assets/贴图/images/fixed_img.png",
+        "position": {
+          "x": 1190.21637,
+          "y": 78.37385
+        },
+        "width": 36.64807,
+        "height": 37.91566
+      },
+      "s": {
+        "2d.movable": false,
+        "2d.selectable": false
+      }
+    }
+  ],
+  "modified": "Fri Jun 14 2019 09:14:19 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -571.86082,
+    "y": 44.51707,
+    "width": 1978.50997,
+    "height": 97.63253
+  },
+  "title": "导航栏"
+}

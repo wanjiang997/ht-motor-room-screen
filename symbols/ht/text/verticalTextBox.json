@@ -1,0 +1,138 @@
+{
+  "modified": "Tue Mar 26 2019 15:27:51 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "ht.content",
+      "valueType": "Multiline",
+      "name": "editor.content"
+    },
+    {
+      "attr": "ht.font",
+      "valueType": "Font",
+      "name": "UIFont"
+    },
+    {
+      "attr": "ht.vAlign",
+      "valueType": "VAlign",
+      "name": "editor.valuetype.valign"
+    },
+    {
+      "attr": "ht.startOnRight",
+      "valueType": "Boolean",
+      "name": "UIStartOnRight"
+    },
+    {
+      "attr": "ht.wordBreak",
+      "valueType": "Boolean",
+      "name": "UIWordBreak"
+    },
+    {
+      "attr": "ht.color",
+      "valueType": "Color",
+      "name": "editor.color"
+    },
+    {
+      "attr": "ht.background",
+      "valueType": "Color",
+      "name": "UIBackground"
+    },
+    {
+      "attr": "ht.padding",
+      "valueType": "String",
+      "name": "UIPadding"
+    },
+    {
+      "attr": "ht.vGap",
+      "valueType": "PositiveNumber",
+      "name": "UIVGap"
+    },
+    {
+      "attr": "ht.hGap",
+      "valueType": "PositiveNumber",
+      "name": "UIHGap"
+    },
+    {
+      "attr": "ht.borderWidth",
+      "valueType": "PositiveNumber",
+      "name": "UIBorderWidth"
+    },
+    {
+      "attr": "ht.borderColor",
+      "valueType": "Color",
+      "name": "UIBorderColor"
+    },
+    {
+      "attr": "ht.borderRadius",
+      "valueType": "String",
+      "name": "UIBorderRadius"
+    }
+  ],
+  "width": 100,
+  "height": 100,
+  "boundExtend": 5,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "components/ht/text/verticalTextBox.json",
+      "displayName": "verticalTextBox",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "content": {
+        "func": "attr@ht.content",
+        "value": "HT for Web\n构建先进2D和3D可视化所需要的一切"
+      },
+      "font": {
+        "func": "attr@ht.font",
+        "value": "14px sans-serif, Arial"
+      },
+      "vAlign": {
+        "func": "attr@ht.vAlign",
+        "value": "bottom"
+      },
+      "startOnRight": {
+        "func": "attr@ht.startOnRight",
+        "value": false
+      },
+      "wordBreak": {
+        "func": "attr@ht.wordBreak",
+        "value": false
+      },
+      "color": {
+        "func": "attr@ht.color",
+        "value": "rgb(0,0,0)"
+      },
+      "background": {
+        "func": "attr@ht.background",
+        "value": null
+      },
+      "padding": {
+        "func": "attr@ht.padding",
+        "value": "5"
+      },
+      "vGap": {
+        "func": "attr@ht.vGap",
+        "value": 0
+      },
+      "hGap": {
+        "func": "attr@ht.hGap",
+        "value": 4
+      },
+      "borderWidth": {
+        "func": "attr@ht.borderWidth",
+        "value": 1
+      },
+      "borderColor": {
+        "func": "attr@ht.borderColor",
+        "value": "rgb(51,153,255)"
+      },
+      "borderRadius": {
+        "func": "attr@ht.borderRadius",
+        "value": "5"
+      }
+    }
+  ]
+}
